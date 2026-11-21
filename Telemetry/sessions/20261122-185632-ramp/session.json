@@ -1,0 +1,293 @@
+{
+  "session_id": "20261122-185632-ramp",
+  "schema_version": 1,
+  "mode": "collect",
+  "preset": "ramp",
+  "started_at": "2026-11-22T17:56:32.907Z",
+  "started_elapsed_ms": 1153105450,
+  "protocol": {
+    "backends": [
+      "aicore",
+      "litert"
+    ],
+    "repetitions": 2,
+    "warmup": true,
+    "prompt_limit": null,
+    "max_cycles": null,
+    "time_cap_min": 240,
+    "stop_thermal_status": 3,
+    "cool_gate_headroom": null,
+    "cool_gate_max_wait_min": 20,
+    "preheat_min": 0,
+    "preheat_backend": "litert",
+    "cooldown_probe_interval_min": 3,
+    "cooldown_max_min": 30,
+    "battery_floor_pct": 2,
+    "inter_run_gap_ms": 1500,
+    "gap_fraction_of_run": 0.25,
+    "idle_settle_ms": 5000,
+    "idle_measure_ms": 20000,
+    "idle_max_age_min": 5,
+    "shuffle_seed": 42,
+    "max_attempts": 6,
+    "allow_plugged": false,
+    "stall_timeout_ms": 60000,
+    "total_timeout_ms": 180000
+  },
+  "generation": {
+    "max_output_tokens": 256,
+    "top_k": 1,
+    "top_p": 1,
+    "temperature": 0,
+    "seed": 42
+  },
+  "suite": {
+    "id": "cuad_pilot_v1",
+    "sha256": "4a2be0c50b0c6129583f5e1ff1e32870b7ef1d0f12996b423cbde25f623a50c8",
+    "prompt_ids": [
+      "L1-yesno",
+      "L1-extract",
+      "L1-summary",
+      "L2-yesno",
+      "L2-extract",
+      "L2-summary",
+      "L3-yesno",
+      "L3-extract",
+      "L3-summary",
+      "L4-yesno",
+      "L4-extract",
+      "L4-summary",
+      "L5-yesno",
+      "L5-extract",
+      "L5-summary"
+    ]
+  },
+  "energy": {
+    "current_sign": -1,
+    "current_scale_to_ua": 1,
+    "gauge_lag_ms": 500,
+    "calibrated_at": "2026-11-22T16:06:29.271Z",
+    "voltage_source": "battery_changed_broadcast",
+    "sample_interval_ms": 100
+  },
+  "conditions_start": {
+    "battery_pct": 40,
+    "plugged": 0,
+    "is_charging": false,
+    "airplane_mode": true,
+    "power_save_mode": false,
+    "thermal_status": 0,
+    "thermal_headroom": 0.6563947200775146,
+    "battery_temp_c": 35.3,
+    "mem_available_kb": 5937340,
+    "screen_brightness_override": 0.30000001192092896,
+    "placement": "stand, no case"
+  },
+  "device": {
+    "manufacturer": "Google",
+    "model": "Pixel 10",
+    "device": "frankel",
+    "soc_manufacturer": "Google",
+    "soc_model": "Tensor G5",
+    "android_release": "16",
+    "sdk_int": 36,
+    "build_fingerprint": "google\/frankel\/frankel:16\/BD3A.251105.010.E1\/14337626:user\/release-keys",
+    "security_patch": "2025-11-05",
+    "supported_abis": [
+      "arm64-v8a"
+    ],
+    "page_size_bytes": 4096,
+    "cpu_cores": 8,
+    "mem_total_kb": 11817424,
+    "app_version_name": "1.0",
+    "app_version_code": 1,
+    "voltage_source": "battery_changed_broadcast"
+  },
+  "backends": {
+    "aicore": {
+      "model_id": "nano-v4-full",
+      "accelerator": "managed",
+      "token_limit": 8192,
+      "sdk": "com.google.mlkit:genai-prompt:1.0.0-beta4",
+      "model_release_stage": "STABLE",
+      "model_preference": "FULL",
+      "aicore_version_name": "26.10.15.11.release.prod_aicore_20261015.00_RC11",
+      "aicore_version_code": 545573,
+      "caching_available": true,
+      "thinking_available": true,
+      "thinking_enabled": false,
+      "count_tokens_overhead": 8
+    },
+    "litert": {
+      "model_id": "gemma-4-E2B-it.litertlm",
+      "accelerator": "cpu",
+      "token_limit": 8192,
+      "sdk": "com.google.ai.edge.litertlm:litertlm-android:0.18.0",
+      "model_size_bytes": 2588147712,
+      "max_num_tokens": 8192,
+      "engine_init_ms": 334,
+      "min_temperature": 0.01
+    }
+  },
+  "idle_segments": [
+    {
+      "id": "20261122-185632-ramp-idle01",
+      "from_elapsed_ms": 1153110492,
+      "to_elapsed_ms": 1153130496,
+      "median_power_w": 0.44559084000000004
+    },
+    {
+      "id": "20261122-185632-ramp-idle02",
+      "from_elapsed_ms": 1153490593,
+      "to_elapsed_ms": 1153510597,
+      "median_power_w": 0.45778716
+    },
+    {
+      "id": "20261122-185632-ramp-idle03",
+      "from_elapsed_ms": 1153984109,
+      "to_elapsed_ms": 1154004112,
+      "median_power_w": 0.444021543
+    },
+    {
+      "id": "20261122-185632-ramp-idle04",
+      "from_elapsed_ms": 1154317696,
+      "to_elapsed_ms": 1154337698,
+      "median_power_w": 0.46248958800000006
+    },
+    {
+      "id": "20261122-185632-ramp-idle05",
+      "from_elapsed_ms": 1154647629,
+      "to_elapsed_ms": 1154667632,
+      "median_power_w": 0.45136875000000004
+    },
+    {
+      "id": "20261122-185632-ramp-idle06",
+      "from_elapsed_ms": 1154993625,
+      "to_elapsed_ms": 1155013627,
+      "median_power_w": 0.4297691375
+    },
+    {
+      "id": "20261122-185632-ramp-idle07",
+      "from_elapsed_ms": 1155336869,
+      "to_elapsed_ms": 1155356872,
+      "median_power_w": 0.49225576400000004
+    },
+    {
+      "id": "20261122-185632-ramp-idle08",
+      "from_elapsed_ms": 1155685563,
+      "to_elapsed_ms": 1155705565,
+      "median_power_w": 0.45361437800000004
+    },
+    {
+      "id": "20261122-185632-ramp-idle09",
+      "from_elapsed_ms": 1156102208,
+      "to_elapsed_ms": 1156122210,
+      "median_power_w": 0.49082061600000004
+    },
+    {
+      "id": "20261122-185632-ramp-idle10",
+      "from_elapsed_ms": 1156486721,
+      "to_elapsed_ms": 1156506725,
+      "median_power_w": 0.45167689000000005
+    },
+    {
+      "id": "20261122-185632-ramp-idle11",
+      "from_elapsed_ms": 1156815517,
+      "to_elapsed_ms": 1156835519,
+      "median_power_w": 0.43898250200000005
+    },
+    {
+      "id": "20261122-185632-ramp-idle12",
+      "from_elapsed_ms": 1157144834,
+      "to_elapsed_ms": 1157164837,
+      "median_power_w": 0.44840282400000003
+    },
+    {
+      "id": "20261122-185632-ramp-idle13",
+      "from_elapsed_ms": 1157520332,
+      "to_elapsed_ms": 1157540335,
+      "median_power_w": 0.510125
+    },
+    {
+      "id": "20261122-185632-ramp-idle14",
+      "from_elapsed_ms": 1157908228,
+      "to_elapsed_ms": 1157928232,
+      "median_power_w": 0.42377067
+    },
+    {
+      "id": "20261122-185632-ramp-idle15",
+      "from_elapsed_ms": 1158294216,
+      "to_elapsed_ms": 1158314218,
+      "median_power_w": 0.471884375
+    },
+    {
+      "id": "20261122-185632-ramp-idle16",
+      "from_elapsed_ms": 1158771075,
+      "to_elapsed_ms": 1158791078,
+      "median_power_w": 0.47431875
+    },
+    {
+      "id": "20261122-185632-ramp-idle17",
+      "from_elapsed_ms": 1159097672,
+      "to_elapsed_ms": 1159117676,
+      "median_power_w": 0.43054503800000005
+    },
+    {
+      "id": "20261122-185632-ramp-idle18",
+      "from_elapsed_ms": 1159510528,
+      "to_elapsed_ms": 1159530530,
+      "median_power_w": 0.42453268200000005
+    },
+    {
+      "id": "20261122-185632-ramp-idle19",
+      "from_elapsed_ms": 1159865320,
+      "to_elapsed_ms": 1159885323,
+      "median_power_w": 0.43962004800000004
+    },
+    {
+      "id": "20261122-185632-ramp-idle20",
+      "from_elapsed_ms": 1160320842,
+      "to_elapsed_ms": 1160340844,
+      "median_power_w": 0.499157418
+    },
+    {
+      "id": "20261122-185632-ramp-idle21",
+      "from_elapsed_ms": 1160653269,
+      "to_elapsed_ms": 1160673270,
+      "median_power_w": 0.452650392
+    },
+    {
+      "id": "20261122-185632-ramp-idle22",
+      "from_elapsed_ms": 1161151806,
+      "to_elapsed_ms": 1161171808,
+      "median_power_w": 0.474135672
+    },
+    {
+      "id": "20261122-185632-ramp-idle23",
+      "from_elapsed_ms": 1161569698,
+      "to_elapsed_ms": 1161589701,
+      "median_power_w": 0.44917228800000003
+    }
+  ],
+  "status": "battery_low",
+  "end_reason": "battery_low",
+  "ended_at": "2026-11-22T20:24:11.495Z",
+  "runs_ok": 498,
+  "runs_failed": 18,
+  "blocks": 172,
+  "model_id_end": {
+    "aicore": "nano-v4-full",
+    "litert": "gemma-4-E2B-it.litertlm"
+  },
+  "conditions_end": {
+    "battery_pct": 2,
+    "plugged": 0,
+    "is_charging": false,
+    "airplane_mode": true,
+    "power_save_mode": false,
+    "thermal_status": 1,
+    "thermal_headroom": 0.807299792766571,
+    "battery_temp_c": 39.4,
+    "mem_available_kb": 4437080
+  }
+}

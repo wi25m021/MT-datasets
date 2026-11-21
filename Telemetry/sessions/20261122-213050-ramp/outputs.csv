@@ -1,0 +1,693 @@
+run_id,prompt_id,backend,repetition,expected_answer,output_text
+c563b3bc-2405-4a07-bb7d-7a11451643fa,L1-yesno,aicore,0,No,no
+3652a735-1c2b-4af8-b042-e8e9d5d5e747,L1-yesno,aicore,1,No,no
+ae9763c1-0056-4f99-936f-9383a620a610,L1-yesno,aicore,2,No,no
+c1b7da46-669a-41ff-a335-be8e62c5c1d9,L1-yesno,litert,0,No,no
+b63df440-58db-4692-a948-6ab607114314,L1-yesno,litert,1,No,no
+dc91a8ee-2d09-432a-a0db-ce14c0085479,L1-yesno,litert,2,No,no
+d89ee07c-131f-4333-8489-f666490ff3a3,L2-summary,litert,0,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Deep Systems' Obligation (Service Provision):** To provide comprehensive managed hosting services, including system administration (SMTP, DNS, database, web server management), regular backups, and change management (integrating updates/fixes into zencart).
+* **Deep Systems' Obligation (Support Guarantee):** To maintain a 99 percent server uptime guarantee and provide 24x7 emergency phone support with a 1-business-day email response for non-critical issues.
+* **AstroNutrition.com's Obligation (Payment):** To pay a fixed monthly fee of $175 CAD for the 12-month term, which includes up to 10 GB of bandwidth.
+* **AstroNutrition.com's Obligation (Usage/Overage):** To be aware of and be responsible for any bandwidth usage exceeding the included 10 GB, which will incur an overage charge of $20 per additional GB.
+* **Both Parties' Obligation (Scope of Work):** To adhere to the defined scope of services, and to engage paid professional services (Project Management or Custom Software Development)"
+ace2c17e-6ec2-4d99-bb57-227688998752,L2-summary,litert,1,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Deep Systems' Obligation (Service Provision):** To provide comprehensive managed hosting services, including system administration (SMTP, DNS, database, web server management), regular backups, and change management (integrating updates/fixes into zencart).
+* **Deep Systems' Obligation (Support Guarantee):** To maintain a 99 percent server uptime guarantee and provide 24x7 emergency phone support with a 1-business-day email response for non-critical issues.
+* **AstroNutrition.com's Obligation (Payment):** To pay a fixed monthly fee of $175 CAD for the 12-month term, which includes up to 10 GB of bandwidth.
+* **AstroNutrition.com's Obligation (Usage/Overage):** To be aware of and be responsible for any bandwidth usage exceeding the included 10 GB, which will incur an overage charge of $20 per additional GB.
+* **Both Parties' Obligation (Scope of Work):** To adhere to the defined scope of services, and to engage paid professional services (Project Management or Custom Software Development)"
+81fc73ea-848e-42eb-a31b-69609dcc64c7,L2-summary,litert,2,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Deep Systems' Obligation (Service Provision):** To provide comprehensive managed hosting services, including system administration (SMTP, DNS, database, web server management), regular backups, and change management (integrating updates/fixes into zencart).
+* **Deep Systems' Obligation (Support Guarantee):** To maintain a 99 percent server uptime guarantee and provide 24x7 emergency phone support with a 1-business-day email response for non-critical issues.
+* **AstroNutrition.com's Obligation (Payment):** To pay a fixed monthly fee of $175 CAD for the 12-month term, which includes up to 10 GB of bandwidth.
+* **AstroNutrition.com's Obligation (Usage/Overage):** To be aware of and be responsible for any bandwidth usage exceeding the included 10 GB, which will incur an overage charge of $20 per additional GB.
+* **Both Parties' Obligation (Scope of Work):** To adhere to the defined scope of services, and to engage paid professional services (Project Management or Custom Software Development)"
+8b36b4e8-4025-4da5-b351-faeddd440c4e,L2-summary,aicore,0,,"Here are the main obligations of the parties in the Premium Managed Hosting Agreement:
+
+* **Deep Systems' Obligation:** To provide comprehensive managed hosting services, including system administration, database/server management, source code maintenance, and 24/7 technical support for the AstroNutrition.com domain.
+* **AstroNutrition.com's Obligation:** To pay the agreed-upon monthly hosting fee of $175 CAD for the 12-month term.
+* **Service Guarantee:** Deep Systems is obligated to maintain a 99% server uptime guarantee.
+* **Service Scope:** Deep Systems must manage specific technical aspects such as SMTP, IMAP, DNS, SQL database, HTTP server software, and source code integration.
+* **Optional Service Obligation:** If AstroNutrition.com requires external development or custom software enhancements, they agree to pay the specified hourly rates for those professional services."
+91b65970-b128-4a19-a8dc-a3408cf8e4e0,L2-summary,aicore,1,,"Here are the main obligations of the parties in the Premium Managed Hosting Agreement:
+
+* **Deep Systems' Obligation:** To provide comprehensive managed hosting services, including system administration, database/server management, source code maintenance, and 24/7 technical support for the AstroNutrition.com domain.
+* **AstroNutrition.com's Obligation:** To pay the agreed-upon monthly hosting fee of $175 CAD for the 12-month term.
+* **Service Guarantee:** Deep Systems is obligated to maintain a 99% server uptime guarantee.
+* **Service Scope:** Deep Systems must manage specific technical aspects such as SMTP, IMAP, DNS, SQL database, HTTP server software, and source code integration.
+* **Optional Service Obligation:** If AstroNutrition.com requires external development or custom software enhancements, they agree to pay the specified hourly rates for those professional services."
+8f9a9ec5-76ea-4b42-a0b4-c93cf329d0b8,L2-summary,aicore,2,,"Here are the main obligations of the parties in the Premium Managed Hosting Agreement:
+
+* **Deep Systems' Obligation:** To provide comprehensive managed hosting services, including system administration, database/server management, source code maintenance, and 24/7 technical support for the AstroNutrition.com domain.
+* **AstroNutrition.com's Obligation:** To pay the agreed-upon monthly hosting fee of $175 CAD for the 12-month term.
+* **Service Guarantee:** Deep Systems is obligated to maintain a 99% server uptime guarantee.
+* **Service Scope:** Deep Systems must manage specific technical aspects such as SMTP, IMAP, DNS, SQL database, HTTP server software, and source code integration.
+* **Optional Service Obligation:** If AstroNutrition.com requires external development or custom software enhancements, they agree to pay the specified hourly rates for those professional services."
+364de8e4-62de-49be-9dd6-fadc1acd1370,L1-extract,aicore,0,People's Republic of China,PRC
+e0ad6403-3eb1-416b-8d1f-a8b28d9985e7,L1-extract,aicore,1,People's Republic of China,PRC
+a9378b65-aa9a-4755-b70f-0c4615904835,L1-extract,aicore,2,People's Republic of China,PRC
+7abd95ee-c011-4081-8e3d-3394fdbadd23,L1-extract,litert,0,People's Republic of China,PRC
+161e05d6-9f20-4df7-82aa-8e024e282f26,L1-extract,litert,1,People's Republic of China,PRC
+43c7ba6b-1288-41ee-a506-fbff37e655b2,L1-extract,litert,2,People's Republic of China,PRC
+eb3100e1-d531-4c3f-a459-a83c65a9534a,L2-extract,litert,0,New York,California
+0e70b62f-829d-4d43-9b5e-c7b0d49fde7a,L2-extract,litert,1,New York,California
+c4cfb8f9-91a2-4c6c-bc4c-25baf89e738b,L2-extract,litert,2,New York,California
+67129b71-5246-476b-a8cf-118a36eb3f81,L2-extract,aicore,0,New York,California
+ab8a151f-e489-4d8a-9253-43c0826e02e3,L2-extract,aicore,1,New York,California
+2a99653b-521d-40f4-87af-76d8418ba940,L2-extract,aicore,2,New York,California
+216f312a-2532-44b8-b156-0aa9e93d8650,L5-yesno,aicore,0,Yes,
+698abda0-6817-4889-b625-e6c38eb6f41a,L5-yesno,aicore,1,Yes,
+bb4b1d20-5341-435b-af39-7c48697fefaf,L5-yesno,aicore,2,Yes,
+caf14b19-5168-46b1-83e8-e0bfb7a814e8,L5-yesno,litert,0,Yes,no
+9d0695b8-f968-4625-b71d-d9c4a2c0d26b,L5-yesno,litert,1,Yes,no
+6666ad4d-52af-45e5-995e-a6933812f10c,L5-yesno,litert,2,Yes,no
+deeff6ae-bd4c-4d34-80be-c5899c03eba9,L2-yesno,litert,0,No,no
+19a8cf92-049d-43df-8ca4-2c06d19b8029,L2-yesno,litert,1,No,no
+d1801233-c41f-401b-953f-77d281c2ab7c,L2-yesno,litert,2,No,no
+41ee9c43-49c5-4b7b-9364-45dddbd6473c,L2-yesno,aicore,0,No,no
+ecbeb0eb-7e0b-4e49-bb88-9d058c3abee2,L2-yesno,aicore,1,No,no
+9aa8a71a-ff1e-4af1-a59f-77f943e63846,L2-yesno,aicore,2,No,no
+66dab540-989d-42ee-a94a-97a811986ad4,L5-extract,aicore,0,Kansas,Kansas
+ded638c7-d636-4a79-af67-1586c1ec5a2e,L5-extract,aicore,1,Kansas,Kansas
+10633957-fb22-4b4a-9433-bc99678e8cf6,L5-extract,aicore,2,Kansas,Kansas
+562f8e22-35cc-4cc5-b81e-84bd9d9b245d,L5-extract,litert,0,Kansas,Kansas
+135799bd-5480-46e7-a050-c39fa0cc9160,L5-extract,litert,1,Kansas,Kansas
+0e16de75-45e0-4096-90a0-b005fc4bd2c5,L5-extract,litert,2,Kansas,Kansas
+f9cd2744-ebda-434e-adb8-144add2d2e6e,L5-summary,litert,0,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Sicap Ltd's Obligation (Service Provider):** To provide standard maintenance (including hotline support and 20 hours of telephone support per month), manage second-level maintenance for unexpected issues, and handle change management requests (RFCs).
+* **EuroTel's Obligation (Customer):** To provide necessary cooperation, maintain adequate climatic conditions for the systems, ensure personnel are adequately trained, and provide timely and accurate information when requested by Sicap Ltd.
+* **Incident Reporting:** EuroTel must use the defined procedures (HotLine/GNATS) to report all incidents promptly, providing detailed information upon notification.
+* **Change Management:** Both parties must follow formal procedures (RFCs) for any functional changes to the SICAP(R) application, with Sicap Ltd managing the assessment and implementation schedule.
+* **Contractual Compliance & Payment:** Both parties must adhere to the contract terms, and EuroTel is responsible for ensuring proper system maintenance and preventing misuse, while payment terms (semi-annual in advance) must be met to avoid service suspension."
+30890336-e58a-45cf-a797-bcb56551143d,L5-summary,litert,1,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Sicap Ltd's Obligation (Service Provider):** To provide standard maintenance (including hotline support and 20 hours of telephone support per month), manage second-level maintenance for unexpected issues, and handle change management requests (RFCs).
+* **EuroTel's Obligation (Customer):** To provide necessary cooperation, maintain adequate climatic conditions for the systems, ensure personnel are adequately trained, and provide timely and accurate information when requested by Sicap Ltd.
+* **Incident Reporting:** EuroTel must use the defined procedures (HotLine/GNATS) to report all incidents promptly, providing detailed information upon notification.
+* **Change Management:** Both parties must follow formal procedures (RFCs) for any functional changes to the SICAP(R) application, with Sicap Ltd managing the assessment and implementation schedule.
+* **Contractual Compliance & Payment:** Both parties must adhere to the contract terms, and EuroTel is responsible for ensuring proper system maintenance and preventing misuse, while payment terms (semi-annual in advance) must be met to avoid service suspension."
+1bc74ba6-b1e7-4317-a80b-d78b1f4fd00a,L5-summary,litert,2,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Sicap Ltd's Obligation (Service Provider):** To provide standard maintenance (including hotline support and 20 hours of telephone support per month), manage second-level maintenance for unexpected issues, and handle change management requests (RFCs).
+* **EuroTel's Obligation (Customer):** To provide necessary cooperation, maintain adequate climatic conditions for the systems, ensure personnel are adequately trained, and provide timely and accurate information when requested by Sicap Ltd.
+* **Incident Reporting:** EuroTel must use the defined procedures (HotLine/GNATS) to report all incidents promptly, providing detailed information upon notification.
+* **Change Management:** Both parties must follow formal procedures (RFCs) for any functional changes to the SICAP(R) application, with Sicap Ltd managing the assessment and implementation schedule.
+* **Contractual Compliance & Payment:** Both parties must adhere to the contract terms, and EuroTel is responsible for ensuring proper system maintenance and preventing misuse, while payment terms (semi-annual in advance) must be met to avoid service suspension."
+baa1a0ce-e278-480a-9d9e-0f497d11366b,L5-summary,aicore,0,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Sicap Ltd's Obligation (Service Provider):** To provide standard maintenance services (including hotline support and 20 hours of telephone support per month), manage second-level maintenance for unexpected issues, and coordinate support response based on incident priority.
+* **EuroTel's Obligation (Customer):** To provide necessary cooperation, maintain adequate climatic conditions for the systems, ensure personnel are adequately trained, and promptly report incidents using the defined procedures (Hotline/GNATS).
+* **Incident Reporting & Information Sharing:** EuroTel must notify Sicap Ltd of incidents immediately with detailed information, and provide requested system logs or data upon request from Sicap Ltd.
+* **Change Management Protocol:** Both parties must follow a formal Request for Change (RFC) process for any functional changes to the SICAP(R) application, with Sicap Ltd managing the quotation and implementation schedule.
+* **Contractual Compliance & Payment:** Both parties must adhere to the terms of the contract, and EuroTel is responsible for ensuring proper system maintenance and preventing misuse, with payment due according to the agreed pricing structure."
+9917df7b-f77c-4290-a469-153d2349f3e5,L5-summary,aicore,1,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Sicap Ltd's Obligation (Service Provider):** To provide standard maintenance services (including hotline support and 20 hours of telephone support per month), manage second-level maintenance for unexpected issues, and coordinate support response based on incident priority.
+* **EuroTel's Obligation (Customer):** To provide necessary cooperation, maintain adequate climatic conditions for the systems, ensure personnel are adequately trained, and promptly report incidents using the defined procedures (Hotline/GNATS).
+* **Incident Reporting & Information Sharing:** EuroTel must notify Sicap Ltd of incidents immediately with detailed information, and provide requested system logs or data upon request from Sicap Ltd.
+* **Change Management Protocol:** Both parties must follow a formal Request for Change (RFC) process for any functional changes to the SICAP(R) application, with Sicap Ltd managing the quotation and implementation schedule.
+* **Contractual Compliance & Payment:** Both parties must adhere to the terms of the contract, and EuroTel is responsible for ensuring proper system maintenance and preventing misuse, with payment due according to the agreed pricing structure."
+f8c87cd0-f30e-4d0f-adbd-5cec5ae96fa5,L5-summary,aicore,2,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Sicap Ltd's Obligation (Service Provider):** To provide standard maintenance services (including hotline support and 20 hours of telephone support per month), manage second-level maintenance for unexpected issues, and coordinate support response based on incident priority.
+* **EuroTel's Obligation (Customer):** To provide necessary cooperation, maintain adequate climatic conditions for the systems, ensure personnel are adequately trained, and promptly report incidents using the defined procedures (Hotline/GNATS).
+* **Incident Reporting & Information Sharing:** EuroTel must notify Sicap Ltd of incidents immediately with detailed information, and provide requested system logs or data upon request from Sicap Ltd.
+* **Change Management Protocol:** Both parties must follow a formal Request for Change (RFC) process for any functional changes to the SICAP(R) application, with Sicap Ltd managing the quotation and implementation schedule.
+* **Contractual Compliance & Payment:** Both parties must adhere to the terms of the contract, and EuroTel is responsible for ensuring proper system maintenance and preventing misuse, with payment due according to the agreed pricing structure."
+ee847b37-456e-44b5-b6bd-d4c39cb435ef,L3-extract,aicore,0,Pennsylvania,Pennsylvania
+b2c4b89e-eb79-4e86-8787-8181c86b7d26,L3-extract,aicore,1,Pennsylvania,Pennsylvania
+b64e3735-06f7-4ab3-abf4-87b597b0507f,L3-extract,aicore,2,Pennsylvania,Pennsylvania
+78dc8b25-7bfc-4b59-b9a2-cfd8b30ca760,L3-extract,litert,0,Pennsylvania,Pennsylvania
+3d7ce1fb-e6d6-4bbf-a409-ae07b4373dd8,L3-extract,litert,1,Pennsylvania,Pennsylvania
+0de27a37-2e02-4b82-8fb4-698cce75aa9f,L3-extract,litert,2,Pennsylvania,Pennsylvania
+bcb42b18-a8fc-431b-80fa-ba48833cff93,L4-summary,litert,0,,"Here are the main obligations of the parties in the Software Maintenance Agreement, summarized in five bullet points:
+
+* **LEADER's Obligation:** To maintain the CRM software for an additional five years, in exchange for compensation (3,000,000 shares of EZJR's unregistered restricted common stock).
+* **EZJR's Obligation:** To compensate LEADER with the specified stock shares for the extended maintenance service.
+* **LEADER's Warranty:** To represent and warrant that it is a legally authorized entity and that the agreement's execution is valid and binding.
+* **EZJR's Warranty:** To represent and warrant that it is a legally authorized entity and that the agreement's execution is valid and binding.
+* **Indemnification:** LEADER agrees to indemnify and hold EZJR harmless against any damage or deficiency resulting from material misrepresentation, breach of warranty, or nonfulfillment of its obligations under the agreement."
+a06bebd9-c575-4d8f-8bd6-cc5a9874829b,L4-summary,litert,1,,"Here are the main obligations of the parties in the Software Maintenance Agreement, summarized in five bullet points:
+
+* **LEADER's Obligation:** To maintain the CRM software for an additional five years, in exchange for compensation (3,000,000 shares of EZJR's unregistered restricted common stock).
+* **EZJR's Obligation:** To compensate LEADER with the specified stock shares for the extended maintenance service.
+* **LEADER's Warranty:** To represent and warrant that it is a legally authorized entity and that the agreement's execution is valid and binding.
+* **EZJR's Warranty:** To represent and warrant that it is a legally authorized entity and that the agreement's execution is valid and binding.
+* **Indemnification:** LEADER agrees to indemnify and hold EZJR harmless against any damage or deficiency resulting from material misrepresentation, breach of warranty, or nonfulfillment of its obligations under the agreement."
+070e246d-eb80-4d9d-9cc9-00b07d519f4d,L4-summary,litert,2,,"Here are the main obligations of the parties in the Software Maintenance Agreement, summarized in five bullet points:
+
+* **LEADER's Obligation:** To maintain the CRM software for an additional five years, in exchange for compensation (3,000,000 shares of EZJR's unregistered restricted common stock).
+* **EZJR's Obligation:** To compensate LEADER with the specified stock shares for the extended maintenance service.
+* **LEADER's Warranty:** To represent and warrant that it is a legally authorized entity and that the agreement's execution is valid and binding.
+* **EZJR's Warranty:** To represent and warrant that it is a legally authorized entity and that the agreement's execution is valid and binding.
+* **Indemnification:** LEADER agrees to indemnify and hold EZJR harmless against any damage or deficiency resulting from material misrepresentation, breach of warranty, or nonfulfillment of its obligations under the agreement."
+d828f7f5-518d-457c-9f6e-16c22c91d81e,L4-summary,aicore,0,,"Here are the main obligations of the parties in the Software Maintenance Agreement, summarized in five bullet points:
+
+* **LEADER's Obligation (Maintenance):** To maintain the Customer Relationship Management (CRM) software for an additional five years, starting from the date of this agreement.
+* **EZJR's Obligation (Compensation):** To pay LEADER a compensation of 3,000,000 shares of EZJR's unregistered restricted common stock upon the closing of the transaction.
+* **LEADER's Warranty:** To represent and warrant that it has the legal authority to enter into the agreement and that the agreement is valid and binding.
+* **EZJR's Warranty:** To represent and warrant that it has the legal authority to enter into the agreement and that the agreement is valid and binding.
+* **Indemnification:** LEADER agrees to indemnify and hold EZJR harmless against any damage or deficiency resulting from material misrepresentation, breach of warranty, or nonfulfillment of its obligations under the agreement."
+48380ad3-f7c3-4ad8-b9f5-064ecb541957,L4-summary,aicore,1,,"Here are the main obligations of the parties in the Software Maintenance Agreement, summarized in five bullet points:
+
+* **LEADER's Obligation (Maintenance):** To maintain the Customer Relationship Management (CRM) software for an additional five years, starting from the date of this agreement.
+* **EZJR's Obligation (Compensation):** To pay LEADER a compensation of 3,000,000 shares of EZJR's unregistered restricted common stock upon the closing of the transaction.
+* **LEADER's Warranty:** To represent and warrant that it has the legal authority to enter into the agreement and that the agreement is valid and binding.
+* **EZJR's Warranty:** To represent and warrant that it has the legal authority to enter into the agreement and that the agreement is valid and binding.
+* **Indemnification:** LEADER agrees to indemnify and hold EZJR harmless against any damage or deficiency resulting from material misrepresentation, breach of warranty, or nonfulfillment of its obligations under the agreement."
+35407174-544e-4d2f-b3ea-88a1744958cd,L4-summary,aicore,2,,"Here are the main obligations of the parties in the Software Maintenance Agreement, summarized in five bullet points:
+
+* **LEADER's Obligation (Maintenance):** To maintain the Customer Relationship Management (CRM) software for an additional five years, starting from the date of this agreement.
+* **EZJR's Obligation (Compensation):** To pay LEADER a compensation of 3,000,000 shares of EZJR's unregistered restricted common stock upon the closing of the transaction.
+* **LEADER's Warranty:** To represent and warrant that it has the legal authority to enter into the agreement and that the agreement is valid and binding.
+* **EZJR's Warranty:** To represent and warrant that it has the legal authority to enter into the agreement and that the agreement is valid and binding.
+* **Indemnification:** LEADER agrees to indemnify and hold EZJR harmless against any damage or deficiency resulting from material misrepresentation, breach of warranty, or nonfulfillment of its obligations under the agreement."
+704ab7ac-9601-499f-a81d-8490912873c7,L4-extract,aicore,0,Nevada,Nevada
+baef515f-5936-496d-a1df-7e2a4476c8cb,L4-extract,aicore,1,Nevada,Nevada
+91961fae-e1c0-4e07-89ab-8fd3fdbc28c0,L4-extract,aicore,2,Nevada,Nevada
+e821883a-a932-4443-a081-e505f21888bd,L4-extract,litert,0,Nevada,Nevada
+1ac70aa0-e94f-4656-b908-dd817b63c4d0,L4-extract,litert,1,Nevada,Nevada
+84d2da39-12a8-4344-a8ae-bdd7de831113,L4-extract,litert,2,Nevada,Nevada
+8b704649-6e75-49a8-ac44-5a534b5187ef,L1-summary,litert,0,,"Here is a summary of the main obligations based *only* on the provided text:
+
+* **Agreement to Amend:** Both PC Quote, Inc. (PCQ) and A.B. Watley, Inc. (ABW) agree to amend Section 2, Part B of their existing Co-Branding Agreement.
+* **Scope of Amendment:** The amendment specifically modifies the ""Term"" section of the Co-Branding Agreement.
+* **Applicability:** The amendment applies to the primary parties (PCQ and ABW) as well as all their subsidiaries and related companies.
+* **Agreement to Terms:** The parties formally agree to the terms outlined in this Amendment, effective December 9, 1996.
+* **Formal Execution:** The agreement is formally executed by authorized representatives of both PCQ and ABW."
+6889301b-76bf-467c-8dcb-39da64a2ae5b,L1-summary,litert,1,,"Here is a summary of the main obligations based *only* on the provided text:
+
+* **Agreement to Amend:** Both PC Quote, Inc. (PCQ) and A.B. Watley, Inc. (ABW) agree to amend Section 2, Part B of their existing Co-Branding Agreement.
+* **Scope of Amendment:** The amendment specifically modifies the ""Term"" section of the Co-Branding Agreement.
+* **Applicability:** The amendment applies to the primary parties (PCQ and ABW) as well as all their subsidiaries and related companies.
+* **Agreement to Terms:** The parties formally agree to the terms outlined in this Amendment, effective December 9, 1996.
+* **Formal Execution:** The agreement is formally executed by authorized representatives of both PCQ and ABW."
+f418144a-ecdc-440a-a0b6-b3c718583771,L1-summary,litert,2,,"Here is a summary of the main obligations based *only* on the provided text:
+
+* **Agreement to Amend:** Both PC Quote, Inc. (PCQ) and A.B. Watley, Inc. (ABW) agree to amend Section 2, Part B of their existing Co-Branding Agreement.
+* **Scope of Amendment:** The amendment specifically modifies the ""Term"" section of the Co-Branding Agreement.
+* **Applicability:** The amendment applies to the primary parties (PCQ and ABW) as well as all their subsidiaries and related companies.
+* **Agreement to Terms:** The parties formally agree to the terms outlined in this Amendment, effective December 9, 1996.
+* **Formal Execution:** The agreement is formally executed by authorized representatives of both PCQ and ABW."
+62193999-8bce-4b22-be8d-2b19e40f3e3c,L1-summary,aicore,0,,"Here is a summary of the main obligations of the parties based *only* on the provided text:
+
+* **Agreement to the Amendment:** Both PC Quote, Inc. (PCQ) and A.B. Watley, Inc. (ABW) agree to the terms of this amendment effective December 9, 1996.
+* **Scope of Application:** The amendment applies to the original Co-Branding Agreement, its subsidiaries, and related companies of both parties.
+* **Agreement to the Terms:** Both parties formally agree to the specific changes outlined in this amendment.
+* **Formal Acceptance:** The agreement is formalized through the signatures of authorized representatives from both PCQ and ABW.
+* **Governing Context:** The amendment modifies Section 2, Part B of the existing Co-Branding Agreement."
+d1106ee7-07ba-4bf4-aa5e-e34e8d70b53f,L1-summary,aicore,1,,"Here is a summary of the main obligations of the parties based *only* on the provided text:
+
+* **Agreement to the Amendment:** Both PC Quote, Inc. (PCQ) and A.B. Watley, Inc. (ABW) agree to the terms of this amendment effective December 9, 1996.
+* **Scope of Application:** The amendment applies to the original Co-Branding Agreement, its subsidiaries, and related companies of both parties.
+* **Agreement to the Terms:** Both parties formally agree to the specific changes outlined in this amendment.
+* **Formal Acceptance:** The agreement is formalized through the signatures of authorized representatives from both PCQ and ABW.
+* **Governing Context:** The amendment modifies Section 2, Part B of the existing Co-Branding Agreement."
+5d6ac35c-de64-4df0-aeec-79c16512e5a7,L1-summary,aicore,2,,"Here is a summary of the main obligations of the parties based *only* on the provided text:
+
+* **Agreement to the Amendment:** Both PC Quote, Inc. (PCQ) and A.B. Watley, Inc. (ABW) agree to the terms of this amendment effective December 9, 1996.
+* **Scope of Application:** The amendment applies to the original Co-Branding Agreement, its subsidiaries, and related companies of both parties.
+* **Agreement to the Terms:** Both parties formally agree to the specific changes outlined in this amendment.
+* **Formal Acceptance:** The agreement is formalized through the signatures of authorized representatives from both PCQ and ABW.
+* **Governing Context:** The amendment modifies Section 2, Part B of the existing Co-Branding Agreement."
+fc994d31-bb01-4b89-875e-000c21cac6c5,L4-yesno,aicore,0,No,no
+41e7077c-cc94-4f79-a64f-79e6f9c17ac6,L4-yesno,aicore,1,No,no
+27095b36-1a0d-4e67-8df3-40406f22c18c,L4-yesno,aicore,2,No,no
+a57fb668-f5ca-4eee-9f6d-815d62b73b57,L4-yesno,litert,0,No,no
+772bdea9-df6f-485e-97fc-757085ad65bc,L4-yesno,litert,1,No,no
+ba07c662-c820-4908-b459-7f5c684975f5,L4-yesno,litert,2,No,no
+39abdf1a-4930-4b28-8dda-b3cb611a4451,L3-yesno,litert,0,No,no
+4e0f1927-4345-4b6d-a7e3-c9de85fd15b9,L3-yesno,litert,1,No,no
+73dd7c49-7911-455f-ab89-6adf1b8dcadb,L3-yesno,litert,2,No,no
+241db7d5-eb83-47f9-b3e2-42b549eec4e5,L3-yesno,aicore,0,No,no
+b1644d9e-6c8d-46cb-9a31-02683ba11a1b,L3-yesno,aicore,1,No,no
+6b7f116f-b665-4984-ba38-86ae42e357d5,L3-yesno,aicore,2,No,no
+5d9fd2c2-d6ff-4c56-9465-1ef6fd53265d,L3-summary,aicore,0,,"Here are the main obligations of the parties in the Joint Filing Agreement, summarized in five bullet points:
+
+* **Joint Filing Responsibility:** All signatories agree to jointly file any filings required under Section 13 of the Exchange Act or any related rules concerning securities of Tallgrass Energy, LP.
+* **Timely and Accurate Filing:** Each party is responsible for the timely filing of required documents and ensuring the completeness and accuracy of the information provided in their respective filings.
+* **Information Accuracy Disclaimer:** No party is responsible for the accuracy of information provided by other parties unless they have actual knowledge or a reasonable basis to believe the information is inaccurate.
+* **Agreement Duration:** The agreement remains in effect until revoked by any party in writing, with revocation being effective only for the revoking party.
+* **Exhibit Incorporation:** The Agreement itself must be filed, furnished, or incorporated by reference as an exhibit to the required filings."
+6369056d-3af9-4be0-9916-7e6fafbf5352,L3-summary,aicore,1,,"Here are the main obligations of the parties in the Joint Filing Agreement, summarized in five bullet points:
+
+* **Joint Filing Responsibility:** All signatories agree to jointly file any filings required under Section 13 of the Exchange Act or any related rules concerning securities of Tallgrass Energy, LP.
+* **Timely and Accurate Filing:** Each party is responsible for the timely filing of required documents and ensuring the completeness and accuracy of the information provided in their respective filings.
+* **Information Accuracy Disclaimer:** No party is responsible for the accuracy of information provided by other parties unless they have actual knowledge or a reasonable basis to believe the information is inaccurate.
+* **Agreement Duration:** The agreement remains in effect until revoked by any party in writing, with revocation being effective only for the revoking party.
+* **Exhibit Incorporation:** The Agreement itself must be filed, furnished, or incorporated by reference as an exhibit to the required filings."
+1289a742-92a1-4c8f-a89c-db8e173e3b52,L3-summary,aicore,2,,"Here are the main obligations of the parties in the Joint Filing Agreement, summarized in five bullet points:
+
+* **Joint Filing Responsibility:** All signatories agree to jointly file any filings required under Section 13 of the Exchange Act or any related rules concerning securities of Tallgrass Energy, LP.
+* **Timely and Accurate Filing:** Each party is responsible for the timely filing of required documents and ensuring the completeness and accuracy of the information provided in their respective filings.
+* **Information Accuracy Disclaimer:** No party is responsible for the accuracy of information provided by other parties unless they have actual knowledge or a reasonable basis to believe the information is inaccurate.
+* **Agreement Duration:** The agreement remains in effect until revoked by any party in writing, with revocation being effective only for the revoking party.
+* **Exhibit Incorporation:** The Agreement itself must be filed, furnished, or incorporated by reference as an exhibit to the required filings."
+ba87df71-7e5f-4c36-bbd1-023a1d2e905b,L3-summary,litert,0,,"Here are the main obligations of the parties in the Joint Filing Agreement, summarized in five bullet points:
+
+* **Joint Filing Responsibility:** All signatories agree to jointly file any filings required under Section 13 of the Exchange Act or any related rules concerning securities of Tallgrass Energy, LP.
+* **Timely and Accurate Filing:** Each party is responsible for the timely filing of required documents and ensuring the completeness and accuracy of the information contained within their respective filings.
+* **Information Accuracy Disclaimer:** No party is responsible for the completeness or accuracy of the information provided by the other parties, except if they know or have reason to believe the information is inaccurate.
+* **Agreement Duration:** The Joint Filing Agreement remains in effect until revoked by any party in writing, and revocation is only effective with respect to the revoking party.
+* **Incorporation by Reference:** The parties agree to incorporate this Agreement as an exhibit to the relevant filings."
+14ed1881-7828-44fb-8528-48e7f12d3cfa,L3-summary,litert,1,,"Here are the main obligations of the parties in the Joint Filing Agreement, summarized in five bullet points:
+
+* **Joint Filing Responsibility:** All signatories agree to jointly file any filings required under Section 13 of the Exchange Act or any related rules concerning securities of Tallgrass Energy, LP.
+* **Timely and Accurate Filing:** Each party is responsible for the timely filing of required documents and ensuring the completeness and accuracy of the information contained within their respective filings.
+* **Information Accuracy Disclaimer:** No party is responsible for the completeness or accuracy of the information provided by the other parties, except if they know or have reason to believe the information is inaccurate.
+* **Agreement Duration:** The Joint Filing Agreement remains in effect until revoked by any party in writing, and revocation is only effective with respect to the revoking party.
+* **Incorporation by Reference:** The parties agree to incorporate this Agreement as an exhibit to the relevant filings."
+acd0feb2-fd22-4db1-89ad-edff0f657810,L3-summary,litert,2,,"Here are the main obligations of the parties in the Joint Filing Agreement, summarized in five bullet points:
+
+* **Joint Filing Responsibility:** All signatories agree to jointly file any filings required under Section 13 of the Exchange Act or any related rules concerning securities of Tallgrass Energy, LP.
+* **Timely and Accurate Filing:** Each party is responsible for the timely filing of required documents and ensuring the completeness and accuracy of the information contained within their respective filings.
+* **Information Accuracy Disclaimer:** No party is responsible for the completeness or accuracy of the information provided by the other parties, except if they know or have reason to believe the information is inaccurate.
+* **Agreement Duration:** The Joint Filing Agreement remains in effect until revoked by any party in writing, and revocation is only effective with respect to the revoking party.
+* **Incorporation by Reference:** The parties agree to incorporate this Agreement as an exhibit to the relevant filings."
+fe4756aa-8bed-4fc8-885e-92ef7fbad881,L2-extract,aicore,0,New York,California
+692e389e-5c06-4678-a159-beece146d649,L2-extract,aicore,1,New York,California
+ac1377c0-eb7b-4f93-a12f-46d1ba89a7b2,L2-extract,aicore,2,New York,California
+4a030da1-34bc-4d8d-a558-3ae012afc2af,L2-extract,litert,0,New York,California
+2d94d373-114c-4522-8bd2-9529be49e8c7,L2-extract,litert,1,New York,California
+7f354d31-12f4-4001-9a34-8cc20f99e2a3,L2-extract,litert,2,New York,California
+334e179f-cb27-4b54-8651-fd7eec3c712e,L4-summary,litert,0,,"Here are the main obligations of the parties in the Software Maintenance Agreement, summarized in five bullet points:
+
+* **LEADER's Obligation:** To maintain the CRM software for an additional five years, in exchange for compensation (3,000,000 shares of EZJR's unregistered restricted common stock).
+* **EZJR's Obligation:** To compensate LEADER with the specified stock shares for the extended maintenance service.
+* **LEADER's Warranty:** To represent and warrant that it is a legally authorized entity and that the agreement's execution is valid and binding.
+* **EZJR's Warranty:** To represent and warrant that it is a legally authorized entity and that the agreement's execution is valid and binding.
+* **Indemnification:** LEADER agrees to indemnify and hold EZJR harmless against any damage or deficiency resulting from material misrepresentation, breach of warranty, or nonfulfillment of its obligations under the agreement."
+e0ec3387-343b-4693-a4ba-f671ed4e313e,L4-summary,litert,1,,"Here are the main obligations of the parties in the Software Maintenance Agreement, summarized in five bullet points:
+
+* **LEADER's Obligation:** To maintain the CRM software for an additional five years, in exchange for compensation (3,000,000 shares of EZJR's unregistered restricted common stock).
+* **EZJR's Obligation:** To compensate LEADER with the specified stock shares for the extended maintenance service.
+* **LEADER's Warranty:** To represent and warrant that it is a legally authorized entity and that the agreement's execution is valid and binding.
+* **EZJR's Warranty:** To represent and warrant that it is a legally authorized entity and that the agreement's execution is valid and binding.
+* **Indemnification:** LEADER agrees to indemnify and hold EZJR harmless against any damage or deficiency resulting from material misrepresentation, breach of warranty, or nonfulfillment of its obligations under the agreement."
+f0cb0fe1-5e0a-4c92-a131-106fcb8662e7,L4-summary,litert,2,,"Here are the main obligations of the parties in the Software Maintenance Agreement, summarized in five bullet points:
+
+* **LEADER's Obligation:** To maintain the CRM software for an additional five years, in exchange for compensation (3,000,000 shares of EZJR's unregistered restricted common stock).
+* **EZJR's Obligation:** To compensate LEADER with the specified stock shares for the extended maintenance service.
+* **LEADER's Warranty:** To represent and warrant that it is a legally authorized entity and that the agreement's execution is valid and binding.
+* **EZJR's Warranty:** To represent and warrant that it is a legally authorized entity and that the agreement's execution is valid and binding.
+* **Indemnification:** LEADER agrees to indemnify and hold EZJR harmless against any damage or deficiency resulting from material misrepresentation, breach of warranty, or nonfulfillment of its obligations under the agreement."
+15f14a2e-4b1c-4fde-ba23-f56eb64d1a6c,L4-summary,aicore,0,,"Here are the main obligations of the parties in the Software Maintenance Agreement, summarized in five bullet points:
+
+* **LEADER's Obligation (Maintenance):** To maintain the Customer Relationship Management (CRM) software for an additional five years, starting from the date of this agreement.
+* **EZJR's Obligation (Compensation):** To pay LEADER a compensation of 3,000,000 shares of EZJR's unregistered restricted common stock upon the closing of the transaction.
+* **LEADER's Warranty:** To represent and warrant that it has the legal authority to enter into the agreement and that the agreement is valid and binding.
+* **EZJR's Warranty:** To represent and warrant that it has the legal authority to enter into the agreement and that the agreement is valid and binding.
+* **Indemnification:** LEADER agrees to indemnify and hold EZJR harmless against any damage or deficiency resulting from material misrepresentation, breach of warranty, or nonfulfillment of its obligations under the agreement."
+5e51eef8-8065-4e76-a4cb-948528fbb2db,L4-summary,aicore,1,,"Here are the main obligations of the parties in the Software Maintenance Agreement, summarized in five bullet points:
+
+* **LEADER's Obligation (Maintenance):** To maintain the Customer Relationship Management (CRM) software for an additional five years, starting from the date of this agreement.
+* **EZJR's Obligation (Compensation):** To pay LEADER a compensation of 3,000,000 shares of EZJR's unregistered restricted common stock upon the closing of the transaction.
+* **LEADER's Warranty:** To represent and warrant that it has the legal authority to enter into the agreement and that the agreement is valid and binding.
+* **EZJR's Warranty:** To represent and warrant that it has the legal authority to enter into the agreement and that the agreement is valid and binding.
+* **Indemnification:** LEADER agrees to indemnify and hold EZJR harmless against any damage or deficiency resulting from material misrepresentation, breach of warranty, or nonfulfillment of its obligations under the agreement."
+0b59a0e8-c4a7-46b5-8d97-af16c46cc5e0,L4-summary,aicore,2,,"Here are the main obligations of the parties in the Software Maintenance Agreement, summarized in five bullet points:
+
+* **LEADER's Obligation (Maintenance):** To maintain the Customer Relationship Management (CRM) software for an additional five years, starting from the date of this agreement.
+* **EZJR's Obligation (Compensation):** To pay LEADER a compensation of 3,000,000 shares of EZJR's unregistered restricted common stock upon the closing of the transaction.
+* **LEADER's Warranty:** To represent and warrant that it has the legal authority to enter into the agreement and that the agreement is valid and binding.
+* **EZJR's Warranty:** To represent and warrant that it has the legal authority to enter into the agreement and that the agreement is valid and binding.
+* **Indemnification:** LEADER agrees to indemnify and hold EZJR harmless against any damage or deficiency resulting from material misrepresentation, breach of warranty, or nonfulfillment of its obligations under the agreement."
+a56048da-d7e4-4028-8dae-59c71770c17a,L4-extract,aicore,0,Nevada,Nevada
+8db65a66-f4c4-4b35-bfd9-1a6ea2f2a3ae,L4-extract,aicore,1,Nevada,Nevada
+3658c804-9de8-4b4e-9619-7bf764a5809b,L4-extract,aicore,2,Nevada,Nevada
+b0722f45-3597-4f64-8629-0153f582ccbb,L4-extract,litert,0,Nevada,Nevada
+200de5ce-b966-4e7c-aef0-706f1d4c4601,L4-extract,litert,1,Nevada,Nevada
+643c3d41-1fda-448d-a096-499a7301acc0,L4-extract,litert,2,Nevada,Nevada
+e4f19b1a-a94c-435a-935d-3f2c6a30a069,L1-extract,litert,0,People's Republic of China,PRC
+d95b6caa-1ca3-41a4-ace7-ac140b24051d,L1-extract,litert,1,People's Republic of China,PRC
+2e8135b8-0d5b-4961-b6b2-501db58f5a71,L1-extract,litert,2,People's Republic of China,PRC
+a4e7914d-9336-479f-bc31-ed6a91661b55,L1-extract,aicore,0,People's Republic of China,PRC
+66c11f45-98c6-47cd-a29c-d9fddd31593c,L1-extract,aicore,1,People's Republic of China,PRC
+f003b8e4-35fa-4f3b-ba50-f52219d40d5b,L1-extract,aicore,2,People's Republic of China,PRC
+5b09492e-426c-4c71-a36c-40d8fb1a5a78,L3-yesno,aicore,0,No,no
+983052e0-5298-4d74-a140-653c8bd24ed6,L3-yesno,aicore,1,No,no
+99af2cee-ff41-4fec-b238-79f089f65f19,L3-yesno,aicore,2,No,no
+21b55c2c-8c16-42ea-b604-6904779affc4,L3-yesno,litert,0,No,no
+a6db2d2a-bead-4e8f-88e4-2df574c3c53b,L3-yesno,litert,1,No,no
+993eee9c-8b6d-4a1b-a619-86beab858021,L3-yesno,litert,2,No,no
+7ed7d732-1d43-418b-b8e2-c235e13b7974,L5-extract,litert,0,Kansas,Kansas
+6d94519f-ab97-46d0-a7c0-2350ec75104f,L5-extract,litert,1,Kansas,Kansas
+cdf4a497-45fd-493b-b755-922061ed3b39,L5-extract,litert,2,Kansas,Kansas
+a1dc2dc8-02a9-4bda-b2e9-882ece8411c7,L5-extract,aicore,0,Kansas,Kansas
+ea45f748-5352-44f0-b06d-a6d236e4cc61,L5-extract,aicore,1,Kansas,Kansas
+298187aa-92c6-49ce-8884-69d35ac53bff,L5-extract,aicore,2,Kansas,Kansas
+25519260-2034-4b9b-b0ba-2ca25d42e9fb,L1-yesno,aicore,0,No,no
+4ed63933-9e42-4c2e-ad9f-aacf5d6f1b06,L1-yesno,aicore,1,No,no
+f52d9ac3-95e2-42d3-86ac-84f08d134eea,L1-yesno,aicore,2,No,no
+7e17a811-4ec5-4efc-9016-a1088eb724a9,L1-yesno,litert,0,No,no
+1460af29-e786-4345-9b1b-42a8e9919050,L1-yesno,litert,1,No,no
+acc301ab-0014-45ab-89c5-09c6404cc52a,L1-yesno,litert,2,No,no
+943aea7d-f248-40fc-a909-2f405caab0ba,L1-summary,litert,0,,"Here is a summary of the main obligations based *only* on the provided text:
+
+* **Agreement to Amend:** Both PC Quote, Inc. (PCQ) and A.B. Watley, Inc. (ABW) agree to amend Section 2, Part B of their existing Co-Branding Agreement.
+* **Scope of Amendment:** The amendment specifically modifies the ""Term"" section of the Co-Branding Agreement.
+* **Applicability:** The amendment applies to the primary parties (PCQ and ABW) as well as all their subsidiaries and related companies.
+* **Agreement to Terms:** The parties formally agree to the terms outlined in this Amendment, effective December 9, 1996.
+* **Formal Execution:** The agreement is formally executed by authorized representatives of both PCQ and ABW."
+6528d39e-5b1a-45e5-baac-408304322e14,L1-summary,litert,1,,"Here is a summary of the main obligations based *only* on the provided text:
+
+* **Agreement to Amend:** Both PC Quote, Inc. (PCQ) and A.B. Watley, Inc. (ABW) agree to amend Section 2, Part B of their existing Co-Branding Agreement.
+* **Scope of Amendment:** The amendment specifically modifies the ""Term"" section of the Co-Branding Agreement.
+* **Applicability:** The amendment applies to the primary parties (PCQ and ABW) as well as all their subsidiaries and related companies.
+* **Agreement to Terms:** The parties formally agree to the terms outlined in this Amendment, effective December 9, 1996.
+* **Formal Execution:** The agreement is formally executed by authorized representatives of both PCQ and ABW."
+6af39726-b718-4628-8051-9489a84b3969,L1-summary,litert,2,,"Here is a summary of the main obligations based *only* on the provided text:
+
+* **Agreement to Amend:** Both PC Quote, Inc. (PCQ) and A.B. Watley, Inc. (ABW) agree to amend Section 2, Part B of their existing Co-Branding Agreement.
+* **Scope of Amendment:** The amendment specifically modifies the ""Term"" section of the Co-Branding Agreement.
+* **Applicability:** The amendment applies to the primary parties (PCQ and ABW) as well as all their subsidiaries and related companies.
+* **Agreement to Terms:** The parties formally agree to the terms outlined in this Amendment, effective December 9, 1996.
+* **Formal Execution:** The agreement is formally executed by authorized representatives of both PCQ and ABW."
+ae6cbd81-9d0a-4691-ac49-f29146b2a2cc,L1-summary,aicore,0,,"Here is a summary of the main obligations of the parties based *only* on the provided text:
+
+* **Agreement to the Amendment:** Both PC Quote, Inc. (PCQ) and A.B. Watley, Inc. (ABW) agree to the terms of this amendment effective December 9, 1996.
+* **Scope of Application:** The amendment applies to the original Co-Branding Agreement, its subsidiaries, and related companies of both parties.
+* **Agreement to the Terms:** Both parties formally agree to the specific changes outlined in this amendment.
+* **Formal Acceptance:** The agreement is formalized through the signatures of authorized representatives from both PCQ and ABW.
+* **Governing Context:** The amendment modifies Section 2, Part B of the existing Co-Branding Agreement."
+a2f19f7f-6e5a-40dc-a7a9-80f076d51985,L1-summary,aicore,1,,"Here is a summary of the main obligations of the parties based *only* on the provided text:
+
+* **Agreement to the Amendment:** Both PC Quote, Inc. (PCQ) and A.B. Watley, Inc. (ABW) agree to the terms of this amendment effective December 9, 1996.
+* **Scope of Application:** The amendment applies to the original Co-Branding Agreement, its subsidiaries, and related companies of both parties.
+* **Agreement to the Terms:** Both parties formally agree to the specific changes outlined in this amendment.
+* **Formal Acceptance:** The agreement is formalized through the signatures of authorized representatives from both PCQ and ABW.
+* **Governing Context:** The amendment modifies Section 2, Part B of the existing Co-Branding Agreement."
+20f7477e-1587-4267-85a9-dd63d511186c,L1-summary,aicore,2,,"Here is a summary of the main obligations of the parties based *only* on the provided text:
+
+* **Agreement to the Amendment:** Both PC Quote, Inc. (PCQ) and A.B. Watley, Inc. (ABW) agree to the terms of this amendment effective December 9, 1996.
+* **Scope of Application:** The amendment applies to the original Co-Branding Agreement, its subsidiaries, and related companies of both parties.
+* **Agreement to the Terms:** Both parties formally agree to the specific changes outlined in this amendment.
+* **Formal Acceptance:** The agreement is formalized through the signatures of authorized representatives from both PCQ and ABW.
+* **Governing Context:** The amendment modifies Section 2, Part B of the existing Co-Branding Agreement."
+81e26fb6-085e-4433-a623-b6ff9ab091db,L5-summary,aicore,0,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Sicap Ltd's Obligation (Service Provider):** To provide standard maintenance services (including hotline support and 20 hours of telephone support per month), manage second-level maintenance for unexpected issues, and coordinate support response based on incident priority.
+* **EuroTel's Obligation (Customer):** To provide necessary cooperation, maintain adequate climatic conditions for the systems, ensure personnel are adequately trained, and promptly report incidents using the defined procedures (Hotline/GNATS).
+* **Incident Reporting & Information Sharing:** EuroTel must notify Sicap Ltd of incidents immediately with detailed information, and provide requested system logs or data upon request from Sicap Ltd.
+* **Change Management Protocol:** Both parties must follow a formal Request for Change (RFC) process for any functional changes to the SICAP(R) application, with Sicap Ltd managing the quotation and implementation schedule.
+* **Contractual Compliance & Payment:** Both parties must adhere to the terms of the contract, and EuroTel is responsible for ensuring proper system maintenance and preventing misuse, with payment due according to the agreed pricing structure."
+07fef008-d19f-4558-a29e-ede732d372f2,L5-summary,aicore,1,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Sicap Ltd's Obligation (Service Provider):** To provide standard maintenance services (including hotline support and 20 hours of telephone support per month), manage second-level maintenance for unexpected issues, and coordinate support response based on incident priority.
+* **EuroTel's Obligation (Customer):** To provide necessary cooperation, maintain adequate climatic conditions for the systems, ensure personnel are adequately trained, and promptly report incidents using the defined procedures (Hotline/GNATS).
+* **Incident Reporting & Information Sharing:** EuroTel must notify Sicap Ltd of incidents immediately with detailed information, and provide requested system logs or data upon request from Sicap Ltd.
+* **Change Management Protocol:** Both parties must follow a formal Request for Change (RFC) process for any functional changes to the SICAP(R) application, with Sicap Ltd managing the quotation and implementation schedule.
+* **Contractual Compliance & Payment:** Both parties must adhere to the terms of the contract, and EuroTel is responsible for ensuring proper system maintenance and preventing misuse, with payment due according to the agreed pricing structure."
+1b7bfb58-6ba6-4979-a06f-fcbd865b14ca,L5-summary,aicore,2,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Sicap Ltd's Obligation (Service Provider):** To provide standard maintenance services (including hotline support and 20 hours of telephone support per month), manage second-level maintenance for unexpected issues, and coordinate support response based on incident priority.
+* **EuroTel's Obligation (Customer):** To provide necessary cooperation, maintain adequate climatic conditions for the systems, ensure personnel are adequately trained, and promptly report incidents using the defined procedures (Hotline/GNATS).
+* **Incident Reporting & Information Sharing:** EuroTel must notify Sicap Ltd of incidents immediately with detailed information, and provide requested system logs or data upon request from Sicap Ltd.
+* **Change Management Protocol:** Both parties must follow a formal Request for Change (RFC) process for any functional changes to the SICAP(R) application, with Sicap Ltd managing the quotation and implementation schedule.
+* **Contractual Compliance & Payment:** Both parties must adhere to the terms of the contract, and EuroTel is responsible for ensuring proper system maintenance and preventing misuse, with payment due according to the agreed pricing structure."
+6d392538-1f39-4cf7-9cbc-85b4ac17091f,L5-summary,litert,0,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Sicap Ltd's Obligation (Service Provider):** To provide standard maintenance (including hotline support and 20 hours of telephone support per month), manage second-level maintenance for unexpected issues, and handle change management requests (RFCs).
+* **EuroTel's Obligation (Customer):** To provide necessary cooperation, maintain adequate climatic conditions for the systems, ensure personnel are adequately trained, and provide timely and accurate information when requested by Sicap Ltd.
+* **Incident Reporting:** EuroTel must use the defined procedures (HotLine/GNATS) to report all incidents promptly, providing detailed information upon notification.
+* **Change Management:** Both parties must follow formal procedures (RFCs) for any functional changes to the SICAP(R) application, with Sicap Ltd managing the assessment and implementation schedule.
+* **Contractual Compliance & Payment:** Both parties must adhere to the contract terms, and EuroTel is responsible for ensuring proper system maintenance and preventing misuse, while payment terms (semi-annual in advance) must be met to avoid service suspension."
+0df35adb-951d-4f82-8ccf-c562de589465,L5-summary,litert,1,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Sicap Ltd's Obligation (Service Provider):** To provide standard maintenance (including hotline support and 20 hours of telephone support per month), manage second-level maintenance for unexpected issues, and handle change management requests (RFCs).
+* **EuroTel's Obligation (Customer):** To provide necessary cooperation, maintain adequate climatic conditions for the systems, ensure personnel are adequately trained, and provide timely and accurate information when requested by Sicap Ltd.
+* **Incident Reporting:** EuroTel must use the defined procedures (HotLine/GNATS) to report all incidents promptly, providing detailed information upon notification.
+* **Change Management:** Both parties must follow formal procedures (RFCs) for any functional changes to the SICAP(R) application, with Sicap Ltd managing the assessment and implementation schedule.
+* **Contractual Compliance & Payment:** Both parties must adhere to the contract terms, and EuroTel is responsible for ensuring proper system maintenance and preventing misuse, while payment terms (semi-annual in advance) must be met to avoid service suspension."
+b7560a1f-086d-46c6-8deb-38592c73f732,L5-summary,litert,2,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Sicap Ltd's Obligation (Service Provider):** To provide standard maintenance (including hotline support and 20 hours of telephone support per month), manage second-level maintenance for unexpected issues, and handle change management requests (RFCs).
+* **EuroTel's Obligation (Customer):** To provide necessary cooperation, maintain adequate climatic conditions for the systems, ensure personnel are adequately trained, and provide timely and accurate information when requested by Sicap Ltd.
+* **Incident Reporting:** EuroTel must use the defined procedures (HotLine/GNATS) to report all incidents promptly, providing detailed information upon notification.
+* **Change Management:** Both parties must follow formal procedures (RFCs) for any functional changes to the SICAP(R) application, with Sicap Ltd managing the assessment and implementation schedule.
+* **Contractual Compliance & Payment:** Both parties must adhere to the contract terms, and EuroTel is responsible for ensuring proper system maintenance and preventing misuse, while payment terms (semi-annual in advance) must be met to avoid service suspension."
+1ff9b239-a9dc-4d7d-9e71-ad1f893c9360,L3-summary,litert,0,,"Here are the main obligations of the parties in the Joint Filing Agreement, summarized in five bullet points:
+
+* **Joint Filing Responsibility:** All signatories agree to jointly file any filings required under Section 13 of the Exchange Act or any related rules concerning securities of Tallgrass Energy, LP.
+* **Timely and Accurate Filing:** Each party is responsible for the timely filing of required documents and ensuring the completeness and accuracy of the information contained within their respective filings.
+* **Information Accuracy Disclaimer:** No party is responsible for the completeness or accuracy of the information provided by the other parties, except if they know or have reason to believe the information is inaccurate.
+* **Agreement Duration:** The Joint Filing Agreement remains in effect until revoked by any party in writing, and revocation is only effective with respect to the revoking party.
+* **Incorporation by Reference:** The parties agree to incorporate this Agreement as an exhibit to the relevant filings."
+94e9afd2-2c61-4c49-99f5-1c75c93dad25,L3-summary,litert,1,,"Here are the main obligations of the parties in the Joint Filing Agreement, summarized in five bullet points:
+
+* **Joint Filing Responsibility:** All signatories agree to jointly file any filings required under Section 13 of the Exchange Act or any related rules concerning securities of Tallgrass Energy, LP.
+* **Timely and Accurate Filing:** Each party is responsible for the timely filing of required documents and ensuring the completeness and accuracy of the information contained within their respective filings.
+* **Information Accuracy Disclaimer:** No party is responsible for the completeness or accuracy of the information provided by the other parties, except if they know or have reason to believe the information is inaccurate.
+* **Agreement Duration:** The Joint Filing Agreement remains in effect until revoked by any party in writing, and revocation is only effective with respect to the revoking party.
+* **Incorporation by Reference:** The parties agree to incorporate this Agreement as an exhibit to the relevant filings."
+391bbf4a-1084-4967-b289-f5562b553ff4,L3-summary,litert,2,,"Here are the main obligations of the parties in the Joint Filing Agreement, summarized in five bullet points:
+
+* **Joint Filing Responsibility:** All signatories agree to jointly file any filings required under Section 13 of the Exchange Act or any related rules concerning securities of Tallgrass Energy, LP.
+* **Timely and Accurate Filing:** Each party is responsible for the timely filing of required documents and ensuring the completeness and accuracy of the information contained within their respective filings.
+* **Information Accuracy Disclaimer:** No party is responsible for the completeness or accuracy of the information provided by the other parties, except if they know or have reason to believe the information is inaccurate.
+* **Agreement Duration:** The Joint Filing Agreement remains in effect until revoked by any party in writing, and revocation is only effective with respect to the revoking party.
+* **Incorporation by Reference:** The parties agree to incorporate this Agreement as an exhibit to the relevant filings."
+00dc64ae-80bf-4ca0-9164-38a185c6a5c5,L3-summary,aicore,0,,"Here are the main obligations of the parties in the Joint Filing Agreement, summarized in five bullet points:
+
+* **Joint Filing Responsibility:** All signatories agree to jointly file any filings required under Section 13 of the Exchange Act or any related rules concerning securities of Tallgrass Energy, LP.
+* **Timely and Accurate Filing:** Each party is responsible for the timely filing of required documents and ensuring the completeness and accuracy of the information provided in their respective filings.
+* **Information Accuracy Disclaimer:** No party is responsible for the accuracy of information provided by other parties unless they have actual knowledge or a reasonable basis to believe the information is inaccurate.
+* **Agreement Duration:** The agreement remains in effect until revoked by any party in writing, with revocation being effective only for the revoking party.
+* **Exhibit Incorporation:** The Agreement itself must be filed, furnished, or incorporated by reference as an exhibit to the required filings."
+075e0c65-0247-48d0-a159-77a8cc222aaf,L3-summary,aicore,1,,"Here are the main obligations of the parties in the Joint Filing Agreement, summarized in five bullet points:
+
+* **Joint Filing Responsibility:** All signatories agree to jointly file any filings required under Section 13 of the Exchange Act or any related rules concerning securities of Tallgrass Energy, LP.
+* **Timely and Accurate Filing:** Each party is responsible for the timely filing of required documents and ensuring the completeness and accuracy of the information provided in their respective filings.
+* **Information Accuracy Disclaimer:** No party is responsible for the accuracy of information provided by other parties unless they have actual knowledge or a reasonable basis to believe the information is inaccurate.
+* **Agreement Duration:** The agreement remains in effect until revoked by any party in writing, with revocation being effective only for the revoking party.
+* **Exhibit Incorporation:** The Agreement itself must be filed, furnished, or incorporated by reference as an exhibit to the required filings."
+e2425cef-3258-4cbd-82da-3fab7c831ed5,L3-summary,aicore,2,,"Here are the main obligations of the parties in the Joint Filing Agreement, summarized in five bullet points:
+
+* **Joint Filing Responsibility:** All signatories agree to jointly file any filings required under Section 13 of the Exchange Act or any related rules concerning securities of Tallgrass Energy, LP.
+* **Timely and Accurate Filing:** Each party is responsible for the timely filing of required documents and ensuring the completeness and accuracy of the information provided in their respective filings.
+* **Information Accuracy Disclaimer:** No party is responsible for the accuracy of information provided by other parties unless they have actual knowledge or a reasonable basis to believe the information is inaccurate.
+* **Agreement Duration:** The agreement remains in effect until revoked by any party in writing, with revocation being effective only for the revoking party.
+* **Exhibit Incorporation:** The Agreement itself must be filed, furnished, or incorporated by reference as an exhibit to the required filings."
+4699b6c7-7c94-4247-8ca5-d632f97e7f0c,L2-summary,aicore,0,,"Here are the main obligations of the parties in the Premium Managed Hosting Agreement:
+
+* **Deep Systems' Obligation:** To provide comprehensive managed hosting services, including system administration, database/server management, source code maintenance, and 24/7 technical support for the AstroNutrition.com domain.
+* **AstroNutrition.com's Obligation:** To pay the agreed-upon monthly hosting fee of $175 CAD for the 12-month term.
+* **Service Guarantee:** Deep Systems is obligated to maintain a 99% server uptime guarantee.
+* **Service Scope:** Deep Systems must manage specific technical aspects such as SMTP, IMAP, DNS, SQL database, HTTP server software, and source code integration.
+* **Optional Service Obligation:** If AstroNutrition.com requires external development or custom software enhancements, they agree to pay the specified hourly rates for those professional services."
+acb20d01-8beb-40ad-aad5-0a3a40b88012,L2-summary,aicore,1,,"Here are the main obligations of the parties in the Premium Managed Hosting Agreement:
+
+* **Deep Systems' Obligation:** To provide comprehensive managed hosting services, including system administration, database/server management, source code maintenance, and 24/7 technical support for the AstroNutrition.com domain.
+* **AstroNutrition.com's Obligation:** To pay the agreed-upon monthly hosting fee of $175 CAD for the 12-month term.
+* **Service Guarantee:** Deep Systems is obligated to maintain a 99% server uptime guarantee.
+* **Service Scope:** Deep Systems must manage specific technical aspects such as SMTP, IMAP, DNS, SQL database, HTTP server software, and source code integration.
+* **Optional Service Obligation:** If AstroNutrition.com requires external development or custom software enhancements, they agree to pay the specified hourly rates for those professional services."
+9943c332-5548-409f-b725-d9461a287f09,L2-summary,aicore,2,,"Here are the main obligations of the parties in the Premium Managed Hosting Agreement:
+
+* **Deep Systems' Obligation:** To provide comprehensive managed hosting services, including system administration, database/server management, source code maintenance, and 24/7 technical support for the AstroNutrition.com domain.
+* **AstroNutrition.com's Obligation:** To pay the agreed-upon monthly hosting fee of $175 CAD for the 12-month term.
+* **Service Guarantee:** Deep Systems is obligated to maintain a 99% server uptime guarantee.
+* **Service Scope:** Deep Systems must manage specific technical aspects such as SMTP, IMAP, DNS, SQL database, HTTP server software, and source code integration.
+* **Optional Service Obligation:** If AstroNutrition.com requires external development or custom software enhancements, they agree to pay the specified hourly rates for those professional services."
+0ddb3810-ec5a-4ff6-b24d-48cc2b923ec7,L2-summary,litert,0,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Deep Systems' Obligation (Service Provision):** To provide comprehensive managed hosting services, including system administration (SMTP, DNS, database, web server management), regular backups, and change management (integrating updates/fixes into zencart).
+* **Deep Systems' Obligation (Support Guarantee):** To maintain a 99 percent server uptime guarantee and provide 24x7 emergency phone support with a 1-business-day email response for non-critical issues.
+* **AstroNutrition.com's Obligation (Payment):** To pay a fixed monthly fee of $175 CAD for the 12-month term, which includes up to 10 GB of bandwidth.
+* **AstroNutrition.com's Obligation (Usage/Overage):** To be aware of and be responsible for any bandwidth usage exceeding the included 10 GB, which will incur an overage charge of $20 per additional GB.
+* **Both Parties' Obligation (Scope of Work):** To adhere to the defined scope of services, and to engage paid professional services (Project Management or Custom Software Development)"
+70b63053-0a31-43d9-8974-c72c1646d4e0,L2-summary,litert,1,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Deep Systems' Obligation (Service Provision):** To provide comprehensive managed hosting services, including system administration (SMTP, DNS, database, web server management), regular backups, and change management (integrating updates/fixes into zencart).
+* **Deep Systems' Obligation (Support Guarantee):** To maintain a 99 percent server uptime guarantee and provide 24x7 emergency phone support with a 1-business-day email response for non-critical issues.
+* **AstroNutrition.com's Obligation (Payment):** To pay a fixed monthly fee of $175 CAD for the 12-month term, which includes up to 10 GB of bandwidth.
+* **AstroNutrition.com's Obligation (Usage/Overage):** To be aware of and be responsible for any bandwidth usage exceeding the included 10 GB, which will incur an overage charge of $20 per additional GB.
+* **Both Parties' Obligation (Scope of Work):** To adhere to the defined scope of services, and to engage paid professional services (Project Management or Custom Software Development)"
+e1444188-f970-4b89-8af0-ef904263921a,L2-summary,litert,2,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Deep Systems' Obligation (Service Provision):** To provide comprehensive managed hosting services, including system administration (SMTP, DNS, database, web server management), regular backups, and change management (integrating updates/fixes into zencart).
+* **Deep Systems' Obligation (Support Guarantee):** To maintain a 99 percent server uptime guarantee and provide 24x7 emergency phone support with a 1-business-day email response for non-critical issues.
+* **AstroNutrition.com's Obligation (Payment):** To pay a fixed monthly fee of $175 CAD for the 12-month term, which includes up to 10 GB of bandwidth.
+* **AstroNutrition.com's Obligation (Usage/Overage):** To be aware of and be responsible for any bandwidth usage exceeding the included 10 GB, which will incur an overage charge of $20 per additional GB.
+* **Both Parties' Obligation (Scope of Work):** To adhere to the defined scope of services, and to engage paid professional services (Project Management or Custom Software Development)"
+447f6b91-5c12-40fe-ac97-ef62686199bd,L3-extract,litert,0,Pennsylvania,Pennsylvania
+8a5a7a7f-fd84-4860-add8-4f93babeb8c8,L3-extract,litert,1,Pennsylvania,Pennsylvania
+f22b684f-170e-40f7-a31d-4eed3bad392a,L3-extract,litert,2,Pennsylvania,Pennsylvania
+336b1d25-52a6-4499-a149-6ed1ec5c01f8,L3-extract,aicore,0,Pennsylvania,Pennsylvania
+69c00385-917a-4f82-903a-ab1cbf4ea352,L3-extract,aicore,1,Pennsylvania,Pennsylvania
+ad50ad10-e281-47dd-a5b1-13ce81993c0b,L3-extract,aicore,2,Pennsylvania,Pennsylvania
+e6dd480a-5a73-409d-99a4-7bcab1db418b,L4-yesno,aicore,0,No,no
+63641265-1545-439c-8609-b891dccca3d3,L4-yesno,aicore,1,No,no
+ded44ee8-198c-4a48-baae-9b81f6953f56,L4-yesno,aicore,2,No,no
+921155dc-90ee-4fb3-8f96-fc0e18e9a6ab,L4-yesno,litert,0,No,no
+5dafc8e0-e52a-4ae0-9dda-4e492618aced,L4-yesno,litert,1,No,no
+431d4989-b83a-4cb1-bb7a-105b3bb05c01,L4-yesno,litert,2,No,no
+a7026463-5de2-4e67-ab15-384645ded629,L5-yesno,litert,0,Yes,no
+fdd1a077-f6b3-49a8-95d0-ace19f8ba1ed,L5-yesno,litert,1,Yes,no
+e84eb70f-5166-4937-806b-819f153de78d,L5-yesno,litert,2,Yes,no
+f628bb7d-5063-4c17-9f1f-e08b984ff523,L5-yesno,aicore,0,Yes,
+3cd0af40-b45b-46a8-94fa-eb15c3d6cd85,L5-yesno,aicore,1,Yes,
+1c0ff1f6-1d46-4d45-b71a-6cb897bd3d84,L5-yesno,aicore,2,Yes,
+b3135f70-f3ed-4c11-ad27-98331063ade7,L2-yesno,aicore,0,No,no
+1b690e47-8be5-4e77-921a-64b2d15cf810,L2-yesno,aicore,1,No,no
+5ce69f49-9974-4a44-857a-bf1cc89feb39,L2-yesno,aicore,2,No,no
+564dd30b-9e8a-4b2e-bdf7-7e1cbe3e1ddc,L2-yesno,litert,0,No,no
+5392545b-ea0a-480e-9dba-3b2b5215e310,L2-yesno,litert,1,No,no
+b09f325a-08b6-4139-a831-952276b53463,L2-yesno,litert,2,No,no
+c05f21de-97b0-4738-aac1-f94444bba10a,L1-extract,aicore,0,People's Republic of China,PRC
+b12ced8e-8e7e-406e-a747-8460b4533544,L1-extract,aicore,1,People's Republic of China,PRC
+93796e4b-101a-4ce1-a5ac-0bdb88ae2bc4,L1-extract,aicore,2,People's Republic of China,PRC
+ef907280-8ca3-4538-a350-9ccdf3c73ad3,L1-extract,litert,0,People's Republic of China,PRC
+6648e740-b5b4-4c82-9698-04af1b8c1515,L1-extract,litert,1,People's Republic of China,PRC
+81377241-842d-4ddd-b9cb-50bf75dc8ee4,L1-extract,litert,2,People's Republic of China,PRC
+56992ba8-a702-4d86-b720-d6229d55c838,L2-extract,litert,0,New York,California
+227c1289-5dc5-47a1-9865-0a8c6315aa2a,L2-extract,litert,1,New York,California
+4c30a566-7460-41cb-8722-f52052b1833e,L2-extract,litert,2,New York,California
+20adad9e-9e11-41e9-bff1-600608177a13,L2-extract,aicore,0,New York,California
+ac66c9d7-add9-4838-bd72-dd8ea6f4017f,L2-extract,aicore,1,New York,California
+acf3e97c-f123-41d2-9324-be3a2371be40,L2-extract,aicore,2,New York,California
+906f282f-7ff9-4f6b-a2a5-9ab016038d2d,L5-summary,aicore,0,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Sicap Ltd's Obligation (Service Provider):** To provide standard maintenance services (including hotline support and 20 hours of telephone support per month), manage second-level maintenance for unexpected issues, and coordinate support response based on incident priority.
+* **EuroTel's Obligation (Customer):** To provide necessary cooperation, maintain adequate climatic conditions for the systems, ensure personnel are adequately trained, and promptly report incidents using the defined procedures (Hotline/GNATS).
+* **Incident Reporting & Information Sharing:** EuroTel must notify Sicap Ltd of incidents immediately with detailed information, and provide requested system logs or data upon request from Sicap Ltd.
+* **Change Management Protocol:** Both parties must follow a formal Request for Change (RFC) process for any functional changes to the SICAP(R) application, with Sicap Ltd managing the quotation and implementation schedule.
+* **Contractual Compliance & Payment:** Both parties must adhere to the terms of the contract, and EuroTel is responsible for ensuring proper system maintenance and preventing misuse, with payment due according to the agreed pricing structure."
+3b3d59c6-b736-4577-901b-05c71e0f05a0,L5-summary,aicore,1,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Sicap Ltd's Obligation (Service Provider):** To provide standard maintenance services (including hotline support and 20 hours of telephone support per month), manage second-level maintenance for unexpected issues, and coordinate support response based on incident priority.
+* **EuroTel's Obligation (Customer):** To provide necessary cooperation, maintain adequate climatic conditions for the systems, ensure personnel are adequately trained, and promptly report incidents using the defined procedures (Hotline/GNATS).
+* **Incident Reporting & Information Sharing:** EuroTel must notify Sicap Ltd of incidents immediately with detailed information, and provide requested system logs or data upon request from Sicap Ltd.
+* **Change Management Protocol:** Both parties must follow a formal Request for Change (RFC) process for any functional changes to the SICAP(R) application, with Sicap Ltd managing the quotation and implementation schedule.
+* **Contractual Compliance & Payment:** Both parties must adhere to the terms of the contract, and EuroTel is responsible for ensuring proper system maintenance and preventing misuse, with payment due according to the agreed pricing structure."
+26e6691f-3a61-4bf2-9c67-5fb6c7900307,L5-summary,aicore,2,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Sicap Ltd's Obligation (Service Provider):** To provide standard maintenance services (including hotline support and 20 hours of telephone support per month), manage second-level maintenance for unexpected issues, and coordinate support response based on incident priority.
+* **EuroTel's Obligation (Customer):** To provide necessary cooperation, maintain adequate climatic conditions for the systems, ensure personnel are adequately trained, and promptly report incidents using the defined procedures (Hotline/GNATS).
+* **Incident Reporting & Information Sharing:** EuroTel must notify Sicap Ltd of incidents immediately with detailed information, and provide requested system logs or data upon request from Sicap Ltd.
+* **Change Management Protocol:** Both parties must follow a formal Request for Change (RFC) process for any functional changes to the SICAP(R) application, with Sicap Ltd managing the quotation and implementation schedule.
+* **Contractual Compliance & Payment:** Both parties must adhere to the terms of the contract, and EuroTel is responsible for ensuring proper system maintenance and preventing misuse, with payment due according to the agreed pricing structure."
+e76dcf33-fa38-44d0-9d46-b1cc2d57b670,L5-summary,litert,0,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Sicap Ltd's Obligation (Service Provider):** To provide standard maintenance (including hotline support and 20 hours of telephone support per month), manage second-level maintenance for unexpected issues, and handle change management requests (RFCs).
+* **EuroTel's Obligation (Customer):** To provide necessary cooperation, maintain adequate climatic conditions for the systems, ensure personnel are adequately trained, and provide timely and accurate information when requested by Sicap Ltd.
+* **Incident Reporting:** EuroTel must use the defined procedures (HotLine/GNATS) to report all incidents promptly, providing detailed information upon notification.
+* **Change Management:** Both parties must follow formal procedures (RFCs) for any functional changes to the SICAP(R) application, with Sicap Ltd managing the assessment and implementation schedule.
+* **Contractual Compliance & Payment:** Both parties must adhere to the contract terms, and EuroTel is responsible for ensuring proper system maintenance and preventing misuse, while payment terms (semi-annual in advance) must be met to avoid service suspension."
+0c521ea0-2cb7-4ab5-a8dc-748991f0cf0d,L5-summary,litert,1,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Sicap Ltd's Obligation (Service Provider):** To provide standard maintenance (including hotline support and 20 hours of telephone support per month), manage second-level maintenance for unexpected issues, and handle change management requests (RFCs).
+* **EuroTel's Obligation (Customer):** To provide necessary cooperation, maintain adequate climatic conditions for the systems, ensure personnel are adequately trained, and provide timely and accurate information when requested by Sicap Ltd.
+* **Incident Reporting:** EuroTel must use the defined procedures (HotLine/GNATS) to report all incidents promptly, providing detailed information upon notification.
+* **Change Management:** Both parties must follow formal procedures (RFCs) for any functional changes to the SICAP(R) application, with Sicap Ltd managing the assessment and implementation schedule.
+* **Contractual Compliance & Payment:** Both parties must adhere to the contract terms, and EuroTel is responsible for ensuring proper system maintenance and preventing misuse, while payment terms (semi-annual in advance) must be met to avoid service suspension."
+11000967-78ee-406e-89b8-2eb10cf289af,L5-summary,litert,2,,"Here are the main obligations of the parties in the contract, summarized in five bullet points:
+
+* **Sicap Ltd's Obligation (Service Provider):** To provide standard maintenance (including hotline support and 20 hours of telephone support per month), manage second-level maintenance for unexpected issues, and handle change management requests (RFCs).
+* **EuroTel's Obligation (Customer):** To provide necessary cooperation, maintain adequate climatic conditions for the systems, ensure personnel are adequately trained, and provide timely and accurate information when requested by Sicap Ltd.
+* **Incident Reporting:** EuroTel must use the defined procedures (HotLine/GNATS) to report all incidents promptly, providing detailed information upon notification.
+* **Change Management:** Both parties must follow formal procedures (RFCs) for any functional changes to the SICAP(R) application, with Sicap Ltd managing the assessment and implementation schedule.
+* **Contractual Compliance & Payment:** Both parties must adhere to the contract terms, and EuroTel is responsible for ensuring proper system maintenance and preventing misuse, while payment terms (semi-annual in advance) must be met to avoid service suspension."
+4da5bd06-c16a-4ab5-9172-b19fb84922c7,L1-yesno,litert,0,No,no
+09a27957-f995-46a6-8283-838b7069dba0,L1-yesno,litert,1,No,no
+2a40d9c0-fa41-4040-92ec-92e4a6d32980,L1-yesno,litert,2,No,no
+ebd4221e-0572-4a14-a233-276ab711e89c,L1-yesno,aicore,0,No,no
+415033a0-c10c-4523-9568-8c883979a50c,L1-yesno,aicore,1,No,no
+cb389d34-7c9e-4800-8b69-78e072f0c5d8,L1-yesno,aicore,2,No,no
+3ca6eb19-ebaf-4050-a440-33ae1d935e52,L2-yesno,aicore,0,No,no
+7b6e20da-ad01-4778-89f5-120524782447,L2-yesno,aicore,1,No,no
+3e23f7bf-0b79-46c6-86d7-ea536119e58f,L2-yesno,aicore,2,No,no
+027dc120-b63c-420c-86e4-3c29c2a15119,L2-yesno,litert,0,No,no
+fd249bed-b0db-45f1-aeb9-ffa8460ee355,L2-yesno,litert,1,No,no
+30444926-ac3f-4124-a646-826c958149fd,L2-yesno,litert,2,No,no
+1e75f94a-4d0a-4884-a757-394bfe45fee3,L4-summary,litert,0,,"Here are the main obligations of the parties in the Software Maintenance Agreement, summarized in five bullet points:
+
+* **LEADER's Obligation:** To maintain the CRM software for an additional five years, in exchange for compensation (3,000,000 shares of EZJR's unregistered restricted common stock).
+* **EZJR's Obligation:** To compensate LEADER with the specified stock shares for the extended maintenance service.
+* **LEADER's Warranty:** To represent and warrant that it is a legally authorized entity and that the agreement's execution is valid and binding.
+* **EZJR's Warranty:** To represent and warrant that it is a legally authorized entity and that the agreement's execution is valid and binding.
+* **Indemnification:** LEADER agrees to indemnify and hold EZJR harmless against any damage or deficiency resulting from material misrepresentation, breach of warranty, or nonfulfillment of its obligations under the agreement."
+103460b8-9526-4197-a2b7-6be682d3b4a2,L4-summary,litert,1,,"Here are the main obligations of the parties in the Software Maintenance Agreement, summarized in five bullet points:
+
+* **LEADER's Obligation:** To maintain the CRM software for an additional five years, in exchange for compensation (3,000,000 shares of EZJR's unregistered restricted common stock).
+* **EZJR's Obligation:** To compensate LEADER with the specified stock shares for the extended maintenance service.
+* **LEADER's Warranty:** To represent and warrant that it is a legally authorized entity and that the agreement's execution is valid and binding.
+* **EZJR's Warranty:** To represent and warrant that it is a legally authorized entity and that the agreement's execution is valid and binding.
+* **Indemnification:** LEADER agrees to indemnify and hold EZJR harmless against any damage or deficiency resulting from material misrepresentation, breach of warranty, or nonfulfillment of its obligations under the agreement."
+6bdd1686-7806-4d7a-9360-83850c420f5e,L4-summary,litert,2,,"Here are the main obligations of the parties in the Software Maintenance Agreement, summarized in five bullet points:
+
+* **LEADER's Obligation:** To maintain the CRM software for an additional five years, in exchange for compensation (3,000,000 shares of EZJR's unregistered restricted common stock).
+* **EZJR's Obligation:** To compensate LEADER with the specified stock shares for the extended maintenance service.
+* **LEADER's Warranty:** To represent and warrant that it is a legally authorized entity and that the agreement's execution is valid and binding.
+* **EZJR's Warranty:** To represent and warrant that it is a legally authorized entity and that the agreement's execution is valid and binding.
+* **Indemnification:** LEADER agrees to indemnify and hold EZJR harmless against any damage or deficiency resulting from material misrepresentation, breach of warranty, or nonfulfillment of its obligations under the agreement."
+feecd824-9879-4102-8853-f4ec55f79bac,L4-summary,aicore,0,,"Here are the main obligations of the parties in the Software Maintenance Agreement, summarized in five bullet points:
+
+* **LEADER's Obligation (Maintenance):** To maintain the Customer Relationship Management (CRM) software for an additional five years, starting from the date of this agreement.
+* **EZJR's Obligation (Compensation):** To pay LEADER a compensation of 3,000,000 shares of EZJR's unregistered restricted common stock upon the closing of the transaction.
+* **LEADER's Warranty:** To represent and warrant that it has the legal authority to enter into the agreement and that the agreement is valid and binding.
+* **EZJR's Warranty:** To represent and warrant that it has the legal authority to enter into the agreement and that the agreement is valid and binding.
+* **Indemnification:** LEADER agrees to indemnify and hold EZJR harmless against any damage or deficiency resulting from material misrepresentation, breach of warranty, or nonfulfillment of its obligations under the agreement."
+f086f86e-7b4c-4680-81f1-acf54c23d39e,L4-summary,aicore,1,,"Here are the main obligations of the parties in the Software Maintenance Agreement, summarized in five bullet points:
+
+* **LEADER's Obligation (Maintenance):** To maintain the Customer Relationship Management (CRM) software for an additional five years, starting from the date of this agreement.
+* **EZJR's Obligation (Compensation):** To pay LEADER a compensation of 3,000,000 shares of EZJR's unregistered restricted common stock upon the closing of the transaction.
+* **LEADER's Warranty:** To represent and warrant that it has the legal authority to enter into the agreement and that the agreement is valid and binding.
+* **EZJR's Warranty:** To represent and warrant that it has the legal authority to enter into the agreement and that the agreement is valid and binding.
+* **Indemnification:** LEADER agrees to indemnify and hold EZJR harmless against any damage or deficiency resulting from material misrepresentation, breach of warranty, or nonfulfillment of its obligations under the agreement."
+411ab894-5bd6-4830-b8e2-3b8410905324,L4-summary,aicore,2,,"Here are the main obligations of the parties in the Software Maintenance Agreement, summarized in five bullet points:
+
+* **LEADER's Obligation (Maintenance):** To maintain the Customer Relationship Management (CRM) software for an additional five years, starting from the date of this agreement.
+* **EZJR's Obligation (Compensation):** To pay LEADER a compensation of 3,000,000 shares of EZJR's unregistered restricted common stock upon the closing of the transaction.
+* **LEADER's Warranty:** To represent and warrant that it has the legal authority to enter into the agreement and that the agreement is valid and binding.
+* **EZJR's Warranty:** To represent and warrant that it has the legal authority to enter into the agreement and that the agreement is valid and binding.
+* **Indemnification:** LEADER agrees to indemnify and hold EZJR harmless against any damage or deficiency resulting from material misrepresentation, breach of warranty, or nonfulfillment of its obligations under the agreement."
+ba6dc781-c553-4199-a07f-47bc86f84910,L3-summary,aicore,0,,"Here are the main obligations of the parties in the Joint Filing Agreement, summarized in five bullet points:
+
+* **Joint Filing Responsibility:** All signatories agree to jointly file any filings required under Section 13 of the Exchange Act or any related rules concerning securities of Tallgrass Energy, LP.
+* **Timely and Accurate Filing:** Each party is responsible for the timely filing of required documents and ensuring the completeness and accuracy of the information provided in their respective filings.
+* **Information Accuracy Disclaimer:** No party is responsible for the accuracy of information provided by other parties unless they have actual knowledge or a reasonable basis to believe the information is inaccurate.
+* **Agreement Duration:** The agreement remains in effect until revoked by any party in writing, with revocation being effective only for the revoking party.
+* **Exhibit Incorporation:** The Agreement itself must be filed, furnished, or incorporated by reference as an exhibit to the required filings."
+a3436075-c4d7-4077-9f72-8202798efe5a,L3-summary,aicore,1,,"Here are the main obligations of the parties in the Joint Filing Agreement, summarized in five bullet points:
+
+* **Joint Filing Responsibility:** All signatories agree to jointly file any filings required under Section 13 of the Exchange Act or any related rules concerning securities of Tallgrass Energy, LP.
+* **Timely and Accurate Filing:** Each party is responsible for the timely filing of required documents and ensuring the completeness and accuracy of the information provided in their respective filings.
+* **Information Accuracy Disclaimer:** No party is responsible for the accuracy of information provided by other parties unless they have actual knowledge or a reasonable basis to believe the information is inaccurate.
+* **Agreement Duration:** The agreement remains in effect until revoked by any party in writing, with revocation being effective only for the revoking party.
+* **Exhibit Incorporation:** The Agreement itself must be filed, furnished, or incorporated by reference as an exhibit to the required filings."
+3c944bb4-87e2-4218-a827-8700bddbaed9,L3-summary,aicore,2,,"Here are the main obligations of the parties in the Joint Filing Agreement, summarized in five bullet points:
+
+* **Joint Filing Responsibility:** All signatories agree to jointly file any filings required under Section 13 of the Exchange Act or any related rules concerning securities of Tallgrass Energy, LP.
+* **Timely and Accurate Filing:** Each party is responsible for the timely filing of required documents and ensuring the completeness and accuracy of the information provided in their respective filings.
+* **Information Accuracy Disclaimer:** No party is responsible for the accuracy of information provided by other parties unless they have actual knowledge or a reasonable basis to believe the information is inaccurate.
+* **Agreement Duration:** The agreement remains in effect until revoked by any party in writing, with revocation being effective only for the revoking party.
+* **Exhibit Incorporation:** The Agreement itself must be filed, furnished, or incorporated by reference as an exhibit to the required filings."
+30189260-9a4a-48b3-bc0b-bf531305c360,L3-summary,litert,0,,"Here are the main obligations of the parties in the Joint Filing Agreement, summarized in five bullet points:
+
+* **Joint Filing Responsibility:** All signatories agree to jointly file any filings required under Section 13 of the Exchange Act or any related rules concerning securities of Tallgrass Energy, LP.
+* **Timely and Accurate Filing:** Each party is responsible for the timely filing of required documents and ensuring the completeness and accuracy of the information contained within their respective filings.
+* **Information Accuracy Disclaimer:** No party is responsible for the completeness or accuracy of the information provided by the other parties, except if they know or have reason to believe the information is inaccurate.
+* **Agreement Duration:** The Joint Filing Agreement remains in effect until revoked by any party in writing, and revocation is only effective with respect to the revoking party.
+* **Incorporation by Reference:** The parties agree to incorporate this Agreement as an exhibit to the relevant filings."
+a595dff1-56d7-47f1-9f0b-d1b434948512,L3-summary,litert,1,,"Here are the main obligations of the parties in the Joint Filing Agreement, summarized in five bullet points:
+
+* **Joint Filing Responsibility:** All signatories agree to jointly file any filings required under Section 13 of the Exchange Act or any related rules concerning securities of Tallgrass Energy, LP.
+* **Timely and Accurate Filing:** Each party is responsible for the timely filing of required documents and ensuring the completeness and accuracy of the information contained within their respective filings.
+* **Information Accuracy Disclaimer:** No party is responsible for the completeness or accuracy of the information provided by the other parties, except if they know or have reason to believe the information is inaccurate.
+* **Agreement Duration:** The Joint Filing Agreement remains in effect until revoked by any party in writing, and revocation is only effective with respect to the revoking party.
+* **Incorporation by Reference:** The parties agree to incorporate this Agreement as an exhibit to the relevant filings."
+0c017483-1319-45f4-b51a-1c0ccc44df18,L3-summary,litert,2,,"Here are the main obligations of the parties in the Joint Filing Agreement, summarized in five bullet points:
+
+* **Joint Filing Responsibility:** All signatories agree to jointly file any filings required under Section 13 of the Exchange Act or any related rules concerning securities of Tallgrass Energy, LP.
+* **Timely and Accurate Filing:** Each party is responsible for the timely filing of required documents and ensuring the completeness and accuracy of the information contained within their respective filings.
+* **Information Accuracy Disclaimer:** No party is responsible for the completeness or accuracy of the information provided by the other parties, except if they know or have reason to believe the information is inaccurate.
+* **Agreement Duration:** The Joint Filing Agreement remains in effect until revoked by any party in writing, and revocation is only effective with respect to the revoking party.
+* **Incorporation by Reference:** The parties agree to incorporate this Agreement as an exhibit to the relevant filings."
+7e53b82e-0bec-4d7b-96b7-e3af541459cf,L5-yesno,litert,0,Yes,no
+c74cc3fd-2ce8-4292-811d-e80bb72c6fe8,L5-yesno,litert,1,Yes,no

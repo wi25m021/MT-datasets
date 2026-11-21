@@ -1,0 +1,201 @@
+{
+  "session_id": "20261122-213050-ramp",
+  "schema_version": 1,
+  "mode": "collect",
+  "preset": "ramp",
+  "started_at": "2026-11-22T20:30:50.758Z",
+  "started_elapsed_ms": 1162363301,
+  "protocol": {
+    "backends": [
+      "aicore",
+      "litert"
+    ],
+    "repetitions": 2,
+    "warmup": true,
+    "prompt_limit": null,
+    "max_cycles": null,
+    "time_cap_min": 120,
+    "stop_thermal_status": 3,
+    "cool_gate_headroom": null,
+    "cool_gate_max_wait_min": 20,
+    "preheat_min": 0,
+    "preheat_backend": "litert",
+    "cooldown_probe_interval_min": 3,
+    "cooldown_max_min": 30,
+    "battery_floor_pct": 2,
+    "inter_run_gap_ms": 1500,
+    "gap_fraction_of_run": 0.25,
+    "idle_settle_ms": 5000,
+    "idle_measure_ms": 20000,
+    "idle_max_age_min": 5,
+    "shuffle_seed": 42,
+    "max_attempts": 6,
+    "allow_plugged": true,
+    "stall_timeout_ms": 60000,
+    "total_timeout_ms": 180000
+  },
+  "generation": {
+    "max_output_tokens": 256,
+    "top_k": 1,
+    "top_p": 1,
+    "temperature": 0,
+    "seed": 42
+  },
+  "suite": {
+    "id": "cuad_pilot_v1",
+    "sha256": "4a2be0c50b0c6129583f5e1ff1e32870b7ef1d0f12996b423cbde25f623a50c8",
+    "prompt_ids": [
+      "L1-yesno",
+      "L1-extract",
+      "L1-summary",
+      "L2-yesno",
+      "L2-extract",
+      "L2-summary",
+      "L3-yesno",
+      "L3-extract",
+      "L3-summary",
+      "L4-yesno",
+      "L4-extract",
+      "L4-summary",
+      "L5-yesno",
+      "L5-extract",
+      "L5-summary"
+    ]
+  },
+  "energy": {
+    "current_sign": -1,
+    "current_scale_to_ua": 1,
+    "gauge_lag_ms": 500,
+    "calibrated_at": "2026-11-22T16:06:29.271Z",
+    "voltage_source": "battery_changed_broadcast",
+    "sample_interval_ms": 100
+  },
+  "conditions_start": {
+    "battery_pct": 7,
+    "plugged": 1,
+    "is_charging": false,
+    "airplane_mode": true,
+    "power_save_mode": false,
+    "thermal_status": 0,
+    "thermal_headroom": 0.6855458617210388,
+    "battery_temp_c": 35.6,
+    "mem_available_kb": 5866768,
+    "screen_brightness_override": 0.30000001192092896,
+    "placement": "stand, no case"
+  },
+  "device": {
+    "manufacturer": "Google",
+    "model": "Pixel 10",
+    "device": "frankel",
+    "soc_manufacturer": "Google",
+    "soc_model": "Tensor G5",
+    "android_release": "16",
+    "sdk_int": 36,
+    "build_fingerprint": "google\/frankel\/frankel:16\/BD3A.251105.010.E1\/14337626:user\/release-keys",
+    "security_patch": "2025-11-05",
+    "supported_abis": [
+      "arm64-v8a"
+    ],
+    "page_size_bytes": 4096,
+    "cpu_cores": 8,
+    "mem_total_kb": 11817424,
+    "app_version_name": "1.0",
+    "app_version_code": 1,
+    "voltage_source": "battery_changed_broadcast"
+  },
+  "backends": {
+    "aicore": {
+      "model_id": "nano-v4-full",
+      "accelerator": "managed",
+      "token_limit": 8192,
+      "sdk": "com.google.mlkit:genai-prompt:1.0.0-beta4",
+      "model_release_stage": "STABLE",
+      "model_preference": "FULL",
+      "aicore_version_name": "26.10.15.11.release.prod_aicore_20261015.00_RC11",
+      "aicore_version_code": 545573,
+      "caching_available": true,
+      "thinking_available": true,
+      "thinking_enabled": false,
+      "count_tokens_overhead": 8
+    },
+    "litert": {
+      "model_id": "gemma-4-E2B-it.litertlm",
+      "accelerator": "cpu",
+      "token_limit": 8192,
+      "sdk": "com.google.ai.edge.litertlm:litertlm-android:0.18.0",
+      "model_size_bytes": 2588147712,
+      "max_num_tokens": 8192,
+      "engine_init_ms": 337,
+      "min_temperature": 0.01
+    }
+  },
+  "idle_segments": [
+    {
+      "id": "20261122-213050-ramp-idle01",
+      "from_elapsed_ms": 1162368345,
+      "to_elapsed_ms": 1162388350,
+      "median_power_w": -9.81608125
+    },
+    {
+      "id": "20261122-213050-ramp-idle02",
+      "from_elapsed_ms": 1162758692,
+      "to_elapsed_ms": 1162778695,
+      "median_power_w": -3.45541875
+    },
+    {
+      "id": "20261122-213050-ramp-idle03",
+      "from_elapsed_ms": 1163261989,
+      "to_elapsed_ms": 1163281991,
+      "median_power_w": -3.973002961
+    },
+    {
+      "id": "20261122-213050-ramp-idle04",
+      "from_elapsed_ms": 1163604480,
+      "to_elapsed_ms": 1163624484,
+      "median_power_w": -3.4935043520000004
+    },
+    {
+      "id": "20261122-213050-ramp-idle05",
+      "from_elapsed_ms": 1163954145,
+      "to_elapsed_ms": 1163974148,
+      "median_power_w": -3.4896740480000004
+    },
+    {
+      "id": "20261122-213050-ramp-idle06",
+      "from_elapsed_ms": 1164281910,
+      "to_elapsed_ms": 1164301914,
+      "median_power_w": -3.50503125
+    },
+    {
+      "id": "20261122-213050-ramp-idle07",
+      "from_elapsed_ms": 1164639360,
+      "to_elapsed_ms": 1164659362,
+      "median_power_w": -3.506169356
+    },
+    {
+      "id": "20261122-213050-ramp-idle08",
+      "from_elapsed_ms": 1164984508,
+      "to_elapsed_ms": 1165004510,
+      "median_power_w": -3.516494958
+    },
+    {
+      "id": "20261122-213050-ramp-idle09",
+      "from_elapsed_ms": 1165369736,
+      "to_elapsed_ms": 1165389740,
+      "median_power_w": -3.522915267
+    },
+    {
+      "id": "20261122-213050-ramp-idle10",
+      "from_elapsed_ms": 1165959605,
+      "to_elapsed_ms": 1165979606,
+      "median_power_w": -3.5411138810000002
+    },
+    {
+      "id": "20261122-213050-ramp-idle11",
+      "from_elapsed_ms": 1166320278,
+      "to_elapsed_ms": 1166340280,
+      "median_power_w": -3.5354943480000003
+    }
+  ],
+  "status": "interrupted"
+}

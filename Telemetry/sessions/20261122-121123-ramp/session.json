@@ -1,0 +1,323 @@
+{
+  "session_id": "20261122-121123-ramp",
+  "schema_version": 1,
+  "mode": "collect",
+  "preset": "ramp",
+  "started_at": "2026-11-22T11:11:23.450Z",
+  "started_elapsed_ms": 1128795994,
+  "protocol": {
+    "backends": [
+      "aicore",
+      "litert"
+    ],
+    "repetitions": 2,
+    "warmup": true,
+    "prompt_limit": null,
+    "max_cycles": null,
+    "time_cap_min": 120,
+    "stop_thermal_status": 3,
+    "cool_gate_headroom": null,
+    "cool_gate_max_wait_min": 20,
+    "preheat_min": 20,
+    "preheat_backend": "litert",
+    "cooldown_probe_interval_min": 3,
+    "cooldown_max_min": 30,
+    "battery_floor_pct": 30,
+    "inter_run_gap_ms": 1500,
+    "gap_fraction_of_run": 0.25,
+    "idle_settle_ms": 5000,
+    "idle_measure_ms": 20000,
+    "idle_max_age_min": 5,
+    "shuffle_seed": 42,
+    "max_attempts": 6,
+    "allow_plugged": false,
+    "stall_timeout_ms": 60000,
+    "total_timeout_ms": 180000
+  },
+  "generation": {
+    "max_output_tokens": 256,
+    "top_k": 1,
+    "top_p": 1,
+    "temperature": 0,
+    "seed": 42
+  },
+  "suite": {
+    "id": "cuad_pilot_v1",
+    "sha256": "4a2be0c50b0c6129583f5e1ff1e32870b7ef1d0f12996b423cbde25f623a50c8",
+    "prompt_ids": [
+      "L1-yesno",
+      "L1-extract",
+      "L1-summary",
+      "L2-yesno",
+      "L2-extract",
+      "L2-summary",
+      "L3-yesno",
+      "L3-extract",
+      "L3-summary",
+      "L4-yesno",
+      "L4-extract",
+      "L4-summary",
+      "L5-yesno",
+      "L5-extract",
+      "L5-summary"
+    ]
+  },
+  "energy": {
+    "current_sign": -1,
+    "current_scale_to_ua": 1,
+    "gauge_lag_ms": 500,
+    "calibrated_at": "2026-11-21T15:21:34.829Z",
+    "voltage_source": "battery_changed_broadcast",
+    "sample_interval_ms": 100
+  },
+  "conditions_start": {
+    "battery_pct": 96,
+    "plugged": 0,
+    "is_charging": false,
+    "airplane_mode": true,
+    "power_save_mode": false,
+    "thermal_status": 0,
+    "thermal_headroom": 0.368005633354187,
+    "battery_temp_c": 25.6,
+    "mem_available_kb": 5923256,
+    "screen_brightness_override": 0.30000001192092896,
+    "placement": "stand, no case"
+  },
+  "device": {
+    "manufacturer": "Google",
+    "model": "Pixel 10",
+    "device": "frankel",
+    "soc_manufacturer": "Google",
+    "soc_model": "Tensor G5",
+    "android_release": "16",
+    "sdk_int": 36,
+    "build_fingerprint": "google\/frankel\/frankel:16\/BD3A.251105.010.E1\/14337626:user\/release-keys",
+    "security_patch": "2025-11-05",
+    "supported_abis": [
+      "arm64-v8a"
+    ],
+    "page_size_bytes": 4096,
+    "cpu_cores": 8,
+    "mem_total_kb": 11817424,
+    "app_version_name": "1.0",
+    "app_version_code": 1,
+    "voltage_source": "battery_changed_broadcast"
+  },
+  "backends": {
+    "aicore": {
+      "model_id": "nano-v4-full",
+      "accelerator": "managed",
+      "token_limit": 8192,
+      "sdk": "com.google.mlkit:genai-prompt:1.0.0-beta4",
+      "model_release_stage": "STABLE",
+      "model_preference": "FULL",
+      "aicore_version_name": "26.10.15.11.release.prod_aicore_20261015.00_RC11",
+      "aicore_version_code": 545573,
+      "caching_available": true,
+      "thinking_available": true,
+      "thinking_enabled": false,
+      "count_tokens_overhead": 8
+    },
+    "litert": {
+      "model_id": "gemma-4-E2B-it.litertlm",
+      "accelerator": "cpu",
+      "token_limit": 8192,
+      "sdk": "com.google.ai.edge.litertlm:litertlm-android:0.18.0",
+      "model_size_bytes": 2588147712,
+      "max_num_tokens": 8192,
+      "engine_init_ms": 3706,
+      "min_temperature": 0.01
+    }
+  },
+  "idle_segments": [
+    {
+      "id": "20261122-121123-ramp-idle01",
+      "from_elapsed_ms": 1128801097,
+      "to_elapsed_ms": 1128821100,
+      "median_power_w": 0.42501933900000005
+    },
+    {
+      "id": "20261122-121123-ramp-idle02",
+      "from_elapsed_ms": 1129227536,
+      "to_elapsed_ms": 1129247540,
+      "median_power_w": 0.4836066600000001
+    },
+    {
+      "id": "20261122-121123-ramp-idle03",
+      "from_elapsed_ms": 1129655073,
+      "to_elapsed_ms": 1129675077,
+      "median_power_w": 0.50403798
+    },
+    {
+      "id": "20261122-121123-ramp-idle04",
+      "from_elapsed_ms": 1130019613,
+      "to_elapsed_ms": 1130039618,
+      "median_power_w": 0.41820721650000003
+    },
+    {
+      "id": "20261122-121123-ramp-idle05",
+      "from_elapsed_ms": 1130424783,
+      "to_elapsed_ms": 1130444785,
+      "median_power_w": 0.476030398
+    },
+    {
+      "id": "20261122-121123-ramp-idle06",
+      "from_elapsed_ms": 1130894733,
+      "to_elapsed_ms": 1130914737,
+      "median_power_w": 0.47148225000000005
+    },
+    {
+      "id": "20261122-121123-ramp-idle07",
+      "from_elapsed_ms": 1131220329,
+      "to_elapsed_ms": 1131240332,
+      "median_power_w": 0.435878837
+    },
+    {
+      "id": "20261122-121123-ramp-idle08",
+      "from_elapsed_ms": 1131545798,
+      "to_elapsed_ms": 1131565800,
+      "median_power_w": 0.493005709
+    },
+    {
+      "id": "20261122-121123-ramp-idle09",
+      "from_elapsed_ms": 1131889787,
+      "to_elapsed_ms": 1131909789,
+      "median_power_w": 0.45421195600000003
+    },
+    {
+      "id": "20261122-121123-ramp-idle10",
+      "from_elapsed_ms": 1132230821,
+      "to_elapsed_ms": 1132250824,
+      "median_power_w": 0.503989066
+    },
+    {
+      "id": "20261122-121123-ramp-idle11",
+      "from_elapsed_ms": 1132579781,
+      "to_elapsed_ms": 1132599783,
+      "median_power_w": 0.543777591
+    },
+    {
+      "id": "20261122-121123-ramp-idle12",
+      "from_elapsed_ms": 1132996916,
+      "to_elapsed_ms": 1133016920,
+      "median_power_w": 0.458138804
+    },
+    {
+      "id": "20261122-121123-ramp-idle13",
+      "from_elapsed_ms": 1133382714,
+      "to_elapsed_ms": 1133402716,
+      "median_power_w": 0.44504793600000003
+    },
+    {
+      "id": "20261122-121123-ramp-idle14",
+      "from_elapsed_ms": 1133708410,
+      "to_elapsed_ms": 1133728412,
+      "median_power_w": 0.45456720800000006
+    },
+    {
+      "id": "20261122-121123-ramp-idle15",
+      "from_elapsed_ms": 1134037477,
+      "to_elapsed_ms": 1134057481,
+      "median_power_w": 0.504363582
+    },
+    {
+      "id": "20261122-121123-ramp-idle16",
+      "from_elapsed_ms": 1134387288,
+      "to_elapsed_ms": 1134407291,
+      "median_power_w": 0.480818261
+    },
+    {
+      "id": "20261122-121123-ramp-idle17",
+      "from_elapsed_ms": 1134764627,
+      "to_elapsed_ms": 1134784630,
+      "median_power_w": 0.47586772800000005
+    },
+    {
+      "id": "20261122-121123-ramp-idle18",
+      "from_elapsed_ms": 1135134029,
+      "to_elapsed_ms": 1135154032,
+      "median_power_w": 0.444809928
+    },
+    {
+      "id": "20261122-121123-ramp-idle19",
+      "from_elapsed_ms": 1135593023,
+      "to_elapsed_ms": 1135613026,
+      "median_power_w": 0.47261517100000006
+    },
+    {
+      "id": "20261122-121123-ramp-idle20",
+      "from_elapsed_ms": 1135933625,
+      "to_elapsed_ms": 1135953627,
+      "median_power_w": 0.49381305600000003
+    },
+    {
+      "id": "20261122-121123-ramp-idle21",
+      "from_elapsed_ms": 1136303224,
+      "to_elapsed_ms": 1136323226,
+      "median_power_w": 0.4860375
+    },
+    {
+      "id": "20261122-121123-ramp-idle22",
+      "from_elapsed_ms": 1136634011,
+      "to_elapsed_ms": 1136654014,
+      "median_power_w": 0.491896445
+    },
+    {
+      "id": "20261122-121123-ramp-idle23",
+      "from_elapsed_ms": 1137053605,
+      "to_elapsed_ms": 1137073607,
+      "median_power_w": 0.506221875
+    },
+    {
+      "id": "20261122-121123-ramp-idle24",
+      "from_elapsed_ms": 1137467698,
+      "to_elapsed_ms": 1137487701,
+      "median_power_w": 0.50371676
+    },
+    {
+      "id": "20261122-121123-ramp-idle25",
+      "from_elapsed_ms": 1137976403,
+      "to_elapsed_ms": 1137996405,
+      "median_power_w": 0.48347812500000004
+    },
+    {
+      "id": "20261122-121123-ramp-idle26",
+      "from_elapsed_ms": 1138447312,
+      "to_elapsed_ms": 1138467314,
+      "median_power_w": 0.49128219
+    },
+    {
+      "id": "20261122-121123-ramp-idle27",
+      "from_elapsed_ms": 1138805721,
+      "to_elapsed_ms": 1138825725,
+      "median_power_w": 0.43886054950000003
+    },
+    {
+      "id": "20261122-121123-ramp-idle28",
+      "from_elapsed_ms": 1139179780,
+      "to_elapsed_ms": 1139199782,
+      "median_power_w": 0.47616562500000004
+    }
+  ],
+  "status": "completed",
+  "end_reason": "time_cap",
+  "ended_at": "2026-11-22T14:04:47.272Z",
+  "runs_ok": 486,
+  "runs_failed": 19,
+  "blocks": 173,
+  "model_id_end": {
+    "aicore": "nano-v4-full",
+    "litert": "gemma-4-E2B-it.litertlm"
+  },
+  "conditions_end": {
+    "battery_pct": 54,
+    "plugged": 0,
+    "is_charging": false,
+    "airplane_mode": true,
+    "power_save_mode": false,
+    "thermal_status": 0,
+    "thermal_headroom": 0.699263870716095,
+    "battery_temp_c": 36.9,
+    "mem_available_kb": 4453384
+  }
+}
