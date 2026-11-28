@@ -10,6 +10,23 @@ collected, on which device, and where the committed pilot data lives. Research d
 
 Schema version: **v1** (2026-10-15). Prompt suite: `cuad_pilot_v1`.
 
+## 0. Status at a glance
+
+| | |
+|---|---|
+| Device | Pixel 10, Tensor G5, Android 16 |
+| Backends measured | `aicore` (Gemini Nano, nano-v4-full), `litert` (gemma-4-E2B-it, CPU) |
+| Prompt suite | `cuad_pilot_v1`, 15 prompts, 5 size levels x 3 task types |
+| Sessions committed | 3 (1 sustained pilot, 2 ramp) |
+| Measured runs committed | 541 |
+| Of which with valid energy | 344 |
+| Thermal range reached | `thermal_status` 0-1, headroom 0.43-0.85 |
+| Target for the thesis | about 1000 measured runs over 3 unplugged ramp sessions, plus 30 cloud runs |
+
+The measurement data does not exist publicly and is produced by the prototype. The sessions
+listed in section 7 are the evidence that collection works end to end on the target device.
+
+
 ## 1. Files
 
 On the phone (pull with
@@ -193,8 +210,8 @@ Filled from Diagnostics (`diag-*.json`) once the phone is authorized for adb.
 | Bootloader | locked (`ro.boot.flash.locked=1`, `verifiedbootstate=green`) |
 | AICore | **Since ≤ 2026-11-21 (main dataset epoch):** `26.10.15.11.release.prod_aicore_20261015.00_RC11` (versionCode 545573), `getBaseModelName()` = **nano-v4-full**, model preference FULL, release stage STABLE. Pilot 2026-10-15/20 epoch: `0.release.prod_aicore_20260917.00_RC01` (versionCode 526925), nano-v3. System stub `aicore_20250130.00_RC01`; `getTokenLimit()` = 8192; implicit caching available; system prompt available; thinking mode unavailable; `countTokens` request overhead = 8 tokens (`countTokens("a") − 1`; subtracted, logged as `count_tokens_overhead`) |
 | LiteRT-LM | `litertlm-android` 0.18.0, accelerator CPU (GPU/PowerVR decode ~2 tok/s vs CPU ~17–20 tok/s, 2026-10-20), `gemma-4-E2B-it.litertlm` (2,588,147,712 bytes, SHA-256 `181938105e0eefd105961417e8da75903eacda102c4fce9ce90f50b97139a63c`) |
-| CURRENT_NOW | TBD (unit, sign while discharging, update interval, gauge lag W) |
-| Thermal | TBD (headroom range idle/load, thermal-zone readability) |
+| CURRENT_NOW | `BATTERY_PROPERTY_CURRENT_NOW` in uA, scale 1, sign `-1` while discharging (calibrated 2026-11-22). Sampled every 100 ms; gauge lag W = 500 ms. Voltage from `ACTION_BATTERY_CHANGED`. Values update slowly: a 1 s run yields few distinct readings, so check `current_distinct_n` and fall back to the block integral. |
+| Thermal | `getThermalHeadroom(0)` readable, observed 0.43 idle to 0.85 under sustained load. `currentThermalStatus` reached 1 (LIGHT) at most over a 148 min unplugged ramp; 2 (MODERATE) was never reached, so the configured stop level 3 never triggers and sessions end on the battery floor instead. Battery temperature 35-40 C. |
 
 ## 6. Prompt suite `cuad_pilot_v1`
 
@@ -220,14 +237,25 @@ Dataset for Legal Contract Review.* NeurIPS 2021.
 
 ## 7. Pilot data
 
-`data/pilot/` — empty until the first sessions are collected. Each committed session keeps
-its full directory (`session.json`, `runs.csv`, `thermal.csv`, `traces/`) and a line here:
+Each committed session keeps its full directory (`session.json`, `runs.csv`, `thermal.csv`,
+`outputs.csv`, `traces/`) under `data/pilot/<session_id>/` and a line here.
 
-| Session | Preset | Backends | Rows (ok / error) | Notes |
-|---|---|---|---|---|
-| `20261015-203459-sustained` | sustained, N = 3 + warmup, 10 min | aicore (nano-v3) | 75 (64 / 11 × BUSY) | First pilot. **Plugged in** (adb over USB, battery 100 %) → energy invalid (`energy_method=none`). 48 measured reps over 16 prompts. Headroom 0.43 → 0.66, battery 27.9 → 33.9 °C, `thermal_status` 0 throughout. BUSY from run 58 (~8 min in); 7 ok rows lack token counts because `countTokens` hit the same quota. Energy calibration not yet measured (defaults). |
+| Session | Preset | Backends | Rows total | Measured / warmup | Errors | Energy | Notes |
+|---|---|---|---|---|---|---|---|
+| `20261015-203459-sustained` | sustained, N = 3 + warmup, 10 min | aicore (nano-v3) | 75 | 48 / 27 | 11 x BUSY | invalid | First pilot. Plugged in over adb, battery 100 %, so `energy_method = none`. Headroom 0.43 to 0.66, battery 27.9 to 33.9 C, `thermal_status` 0 throughout. BUSY from run 58 (~8 min in); 7 ok rows lack token counts because `countTokens` hit the same quota. Energy calibration not yet measured. |
+| `20261122-185632-ramp` | ramp, N = 2 + warmup, 120 min cap | aicore (nano-v4-full), litert | 516 | 344 / 172 | 18 x AICore policy | **valid** | Main reference session. Unplugged, battery 40 to 2 %, ended `battery_low` after 148 min. Headroom 0.62 to 0.85, `thermal_status` 0 to 1, battery 35.3 to 39.4 C. 172 measured runs per backend, all 15 prompts, prompt sizes 245 to 5381 tokens. `energy_method = current_integration` on every row, median 56 samples per run. Deliberate low-start-battery design so battery level is not confounded with thermal state. |
+| `20261122-213050-ramp` | ramp, N = 2 + warmup, 120 min cap | aicore (nano-v4-full), litert | 224 | 149 / 75 | 6 x AICore policy | invalid | Plugged condition (15 W USB-C, offline), battery 7 to 29 %, `status = interrupted`. `energy_method = none` by design; latency, throughput, memory and thermal columns are usable. Gives `plugged` feature variation for the "power bank, no internet" case. |
 
-Pipeline test only (not pilot data): `data/raw/20261015-203302-smoke` (4 rows, pre-overhead-fix token counts).
+Totals committed: 815 rows, 541 measured runs, of which 344 carry valid energy.
+
+Pipeline test only, not pilot data: `data/raw/20261015-203302-smoke` (4 rows, pre-overhead-fix
+token counts).
+
+### What is still missing
+
+- Two further unplugged ramp sessions on different days, to reach about 1000 measured runs
+  and to confirm that results repeat (section 4, "Replicate ramp sessions on >= 3 days").
+- The cloud backend, 15 prompts x 2 repetitions = 30 runs, in one separate online session.
 
 ## 8. Known data-quality caveats
 
@@ -250,3 +278,13 @@ Pipeline test only (not pilot data): `data/raw/20261015-203302-smoke` (4 rows, p
   inflated accordingly.
 - The AICore daily battery quota can end sessions early (`status = aicore_quota`); these
   sessions are kept, not discarded.
+- `thermal_status` did not exceed 1 (LIGHT) in any session so far, even over 148 minutes of
+  continuous load. Thermal variation in the dataset is therefore carried by
+  `thermal_headroom_*` and `battery_temp_*`, not by the coarse status level. Report it that way.
+- AICore rejects some CUAD prompts with `REQUEST_PROCESSING_ERROR` (ErrorCode 4, content
+  policy): 18 of 516 rows (3.5 %) in `20261122-185632-ramp` and 6 of 224 in
+  `20261122-213050-ramp`, always AICore, never LiteRT. These rows are logged as errors, kept,
+  and the rejection rate is itself a reportable result for a legal-domain workload.
+- LiteRT-LM runs on CPU because the GPU delegate was measured at about 2 tok/s against 17 to
+  20 tok/s on CPU (2026-10-20). The comparison is therefore between the runtimes as they can
+  actually be deployed on this device, not between two runtimes on the same hardware unit.
